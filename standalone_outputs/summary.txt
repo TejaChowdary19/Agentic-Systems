@@ -1,0 +1,14 @@
+Analysis of standalone_test_data.csv
+Data shape: 50 rows, 4 columns
+
+Key Insights:
+- Strong positive correlation (0.79) between x and y
+- Strong positive correlation (0.79) between y and x
+- x is increasing over time (by 446.67%)
+- y is increasing over time (by 149.17%)
+
+Files created in standalone_outputs:
+- Statistics: standalone_outputs/statistics.csv
+- Correlations: standalone_outputs/correlations.csv
+- Visualizations: scatter_plot.png, correlation_heatmap.png
+- Insights: standalone_outputs/insights.json

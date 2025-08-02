@@ -1,0 +1,20 @@
+{
+  "insights": [
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.79) between x and y"
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.79) between y and x"
+    },
+    {
+      "type": "trend",
+      "finding": "x is increasing over time (by 446.67%)"
+    },
+    {
+      "type": "trend",
+      "finding": "y is increasing over time (by 149.17%)"
+    }
+  ]
+}

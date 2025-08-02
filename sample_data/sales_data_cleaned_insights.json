@@ -1,0 +1,139 @@
+{
+  "status": "success",
+  "business_context": "Retail sales and marketing analysis",
+  "insights": {
+    "trends": [
+      {
+        "column": "marketing_spend",
+        "date_column": "date",
+        "direction": "increasing",
+        "percent_change": 253.05,
+        "start_value": 0.2,
+        "end_value": 0.7,
+        "insight": "marketing_spend is increasing over time (by 253.05%)"
+      },
+      {
+        "column": "sales",
+        "date_column": "date",
+        "direction": "decreasing",
+        "percent_change": -17.73,
+        "start_value": 0.52,
+        "end_value": 0.43,
+        "insight": "sales is decreasing over time (by 17.73%)"
+      }
+    ],
+    "outliers": [],
+    "correlations": [
+      {
+        "column1": "price",
+        "column2": "competitor_price",
+        "correlation": 0.956,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.96) between price and competitor_price"
+      },
+      {
+        "column1": "competitor_price",
+        "column2": "price",
+        "correlation": 0.956,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.96) between competitor_price and price"
+      },
+      {
+        "column1": "marketing_spend",
+        "column2": "price",
+        "correlation": -0.041,
+        "relationship": "negative",
+        "strength": "weak",
+        "insight": "Weak negative correlation (-0.04) between marketing_spend and price"
+      },
+      {
+        "column1": "marketing_spend",
+        "column2": "competitor_price",
+        "correlation": -0.019,
+        "relationship": "negative",
+        "strength": "weak",
+        "insight": "Weak negative correlation (-0.02) between marketing_spend and competitor_price"
+      },
+      {
+        "column1": "competitor_price",
+        "column2": "marketing_spend",
+        "correlation": -0.019,
+        "relationship": "negative",
+        "strength": "weak",
+        "insight": "Weak negative correlation (-0.02) between competitor_price and marketing_spend"
+      }
+    ],
+    "predictions": {
+      "target": "sales",
+      "insights": []
+    },
+    "segments": [
+      {
+        "segment_column": "customer_segment",
+        "value_column": "sales",
+        "top_segment": "High Value",
+        "bottom_segment": "Low Value",
+        "top_value": 0.626057480098993,
+        "bottom_value": 0.26116841242736205,
+        "percent_difference": 139.71,
+        "insight": "customer_segment segment 'High Value' has 139.7% higher sales than segment 'Low Value'"
+      },
+      {
+        "segment_column": "customer_segment",
+        "value_column": "marketing_spend",
+        "top_segment": "High Value",
+        "bottom_segment": "Low Value",
+        "top_value": 0.500079470973508,
+        "bottom_value": 0.37547647597565637,
+        "percent_difference": 33.19,
+        "insight": "customer_segment segment 'High Value' has 33.2% higher marketing_spend than segment 'Low Value'"
+      }
+    ]
+  },
+  "data_summary": {
+    "rows": 100,
+    "columns": 6,
+    "column_types": {
+      "date": "object",
+      "marketing_spend": "float64",
+      "price": "float64",
+      "competitor_price": "float64",
+      "sales": "float64",
+      "customer_segment": "object"
+    }
+  },
+  "recommended_next_steps": [
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on marketing_spend to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on sales to understand factors driving the decreasing trend",
+      "priority": "medium"
+    },
+    {
+      "type": "correlation_investigation",
+      "recommendation": "Investigate potential causal relationship between price and competitor_price",
+      "priority": "high"
+    },
+    {
+      "type": "segment_analysis",
+      "recommendation": "Analyze factors contributing to high sales in customer_segment segment 'High Value'",
+      "priority": "high"
+    },
+    {
+      "type": "business_specific",
+      "recommendation": "Segment analysis by customer demographics to identify highest-value customer profiles",
+      "priority": "high"
+    },
+    {
+      "type": "business_specific",
+      "recommendation": "Analyze conversion rates across different marketing channels to optimize campaign allocation",
+      "priority": "high"
+    }
+  ]
+}
