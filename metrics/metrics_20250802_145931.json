@@ -1,0 +1,84 @@
+{
+  "metrics": {
+    "accuracy": {
+      "correlation_significance": [],
+      "regression_r_squared": [],
+      "outlier_detection": [],
+      "insight_relevance": []
+    },
+    "efficiency": {
+      "total_runtime": [
+        1.1186659336090088
+      ],
+      "step_runtimes": {
+        "data_collection": [
+          0.11065125465393066
+        ],
+        "data_processing": [
+          0.13145804405212402
+        ],
+        "statistical_analysis": [
+          0.1251049041748047
+        ],
+        "insight_generation": [
+          0.12161517143249512
+        ],
+        "report_generation": [
+          0.10607314109802246
+        ]
+      },
+      "memory_usage": [
+        2.828125
+      ],
+      "cpu_usage": [
+        13.919999999999998
+      ]
+    },
+    "reliability": {
+      "error_rate": [
+        0
+      ],
+      "error_types": {},
+      "recovery_rate": [],
+      "consistency": []
+    },
+    "system": {
+      "dataset_size": [
+        100
+      ],
+      "feature_count": [
+        6
+      ],
+      "insight_count": [
+        5
+      ],
+      "recommendation_count": [
+        1
+      ]
+    }
+  },
+  "summary": {
+    "accuracy": {},
+    "efficiency": {
+      "avg_runtime": 1.1186659336090088,
+      "avg_data_collection_runtime": 0.11065125465393066,
+      "avg_data_processing_runtime": 0.13145804405212402,
+      "avg_statistical_analysis_runtime": 0.1251049041748047,
+      "avg_insight_generation_runtime": 0.12161517143249512,
+      "avg_report_generation_runtime": 0.10607314109802246,
+      "avg_memory_usage": 2.828125,
+      "avg_cpu_usage": 13.919999999999998
+    },
+    "reliability": {
+      "error_rate": 0.0,
+      "error_types": {}
+    },
+    "system": {
+      "avg_dataset_size": 100.0,
+      "avg_feature_count": 6.0,
+      "avg_insight_count": 5.0,
+      "avg_recommendation_count": 1.0
+    }
+  },
+  "timestamp": "2025-08-02T14:59:32.155716"
+}

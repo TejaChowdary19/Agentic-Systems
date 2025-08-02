@@ -1,0 +1,97 @@
+{
+  "metrics": {
+    "accuracy": {
+      "correlation_significance": [],
+      "regression_r_squared": [],
+      "outlier_detection": [],
+      "insight_relevance": []
+    },
+    "efficiency": {
+      "total_runtime": [
+        1.1186659336090088,
+        1.121532917022705
+      ],
+      "step_runtimes": {
+        "data_collection": [
+          0.11065125465393066,
+          0.10748124122619629
+        ],
+        "data_processing": [
+          0.13145804405212402,
+          0.13401103019714355
+        ],
+        "statistical_analysis": [
+          0.1251049041748047,
+          0.12140798568725586
+        ],
+        "insight_generation": [
+          0.12161517143249512,
+          0.12650704383850098
+        ],
+        "report_generation": [
+          0.10607314109802246,
+          0.1041710376739502
+        ]
+      },
+      "memory_usage": [
+        2.828125,
+        4.140625
+      ],
+      "cpu_usage": [
+        13.919999999999998,
+        12.73
+      ]
+    },
+    "reliability": {
+      "error_rate": [
+        0,
+        0
+      ],
+      "error_types": {},
+      "recovery_rate": [],
+      "consistency": []
+    },
+    "system": {
+      "dataset_size": [
+        100,
+        100
+      ],
+      "feature_count": [
+        6,
+        6
+      ],
+      "insight_count": [
+        5,
+        8
+      ],
+      "recommendation_count": [
+        1,
+        2
+      ]
+    }
+  },
+  "summary": {
+    "accuracy": {},
+    "efficiency": {
+      "avg_runtime": 1.120099425315857,
+      "avg_data_collection_runtime": 0.10906624794006348,
+      "avg_data_processing_runtime": 0.1327345371246338,
+      "avg_statistical_analysis_runtime": 0.12325644493103027,
+      "avg_insight_generation_runtime": 0.12406110763549805,
+      "avg_report_generation_runtime": 0.10512208938598633,
+      "avg_memory_usage": 3.484375,
+      "avg_cpu_usage": 13.325
+    },
+    "reliability": {
+      "error_rate": 0.0,
+      "error_types": {}
+    },
+    "system": {
+      "avg_dataset_size": 100.0,
+      "avg_feature_count": 6.0,
+      "avg_insight_count": 6.5,
+      "avg_recommendation_count": 1.5
+    }
+  },
+  "timestamp": "2025-08-02T14:59:33.286114"
+}

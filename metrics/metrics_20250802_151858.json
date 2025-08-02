@@ -1,0 +1,90 @@
+{
+  "metrics": {
+    "accuracy": {
+      "correlation_significance": [],
+      "regression_r_squared": [
+        0.616677854654261,
+        0.013178337685812372,
+        0.0015188062777425433
+      ],
+      "outlier_detection": [],
+      "insight_relevance": []
+    },
+    "efficiency": {
+      "total_runtime": [
+        1.1130361557006836
+      ],
+      "step_runtimes": {
+        "data_collection": [
+          0.11545896530151367
+        ],
+        "data_processing": [
+          0.1302337646484375
+        ],
+        "statistical_analysis": [
+          0.12166404724121094
+        ],
+        "insight_generation": [
+          0.11987686157226562
+        ],
+        "report_generation": [
+          0.10412812232971191
+        ]
+      },
+      "memory_usage": [
+        0.359375
+      ],
+      "cpu_usage": [
+        14.290000000000001
+      ]
+    },
+    "reliability": {
+      "error_rate": [
+        0
+      ],
+      "error_types": {},
+      "recovery_rate": [],
+      "consistency": []
+    },
+    "system": {
+      "dataset_size": [
+        500
+      ],
+      "feature_count": [
+        6
+      ],
+      "insight_count": [
+        7
+      ],
+      "recommendation_count": [
+        3
+      ]
+    }
+  },
+  "summary": {
+    "accuracy": {
+      "avg_r_squared": 0.2104583328726053
+    },
+    "efficiency": {
+      "avg_runtime": 1.1130361557006836,
+      "avg_data_collection_runtime": 0.11545896530151367,
+      "avg_data_processing_runtime": 0.1302337646484375,
+      "avg_statistical_analysis_runtime": 0.12166404724121094,
+      "avg_insight_generation_runtime": 0.11987686157226562,
+      "avg_report_generation_runtime": 0.10412812232971191,
+      "avg_memory_usage": 0.359375,
+      "avg_cpu_usage": 14.290000000000001
+    },
+    "reliability": {
+      "error_rate": 0.0,
+      "error_types": {}
+    },
+    "system": {
+      "avg_dataset_size": 500.0,
+      "avg_feature_count": 6.0,
+      "avg_insight_count": 7.0,
+      "avg_recommendation_count": 3.0
+    }
+  },
+  "timestamp": "2025-08-02T15:18:59.653057"
+}

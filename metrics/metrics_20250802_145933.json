@@ -1,0 +1,110 @@
+{
+  "metrics": {
+    "accuracy": {
+      "correlation_significance": [],
+      "regression_r_squared": [],
+      "outlier_detection": [],
+      "insight_relevance": []
+    },
+    "efficiency": {
+      "total_runtime": [
+        1.1186659336090088,
+        1.121532917022705,
+        1.099639892578125
+      ],
+      "step_runtimes": {
+        "data_collection": [
+          0.11065125465393066,
+          0.10748124122619629,
+          0.10837888717651367
+        ],
+        "data_processing": [
+          0.13145804405212402,
+          0.13401103019714355,
+          0.11904096603393555
+        ],
+        "statistical_analysis": [
+          0.1251049041748047,
+          0.12140798568725586,
+          0.12366104125976562
+        ],
+        "insight_generation": [
+          0.12161517143249512,
+          0.12650704383850098,
+          0.11395812034606934
+        ],
+        "report_generation": [
+          0.10607314109802246,
+          0.1041710376739502,
+          0.10699796676635742
+        ]
+      },
+      "memory_usage": [
+        2.828125,
+        4.140625,
+        4.5625
+      ],
+      "cpu_usage": [
+        13.919999999999998,
+        12.73,
+        21.15
+      ]
+    },
+    "reliability": {
+      "error_rate": [
+        0,
+        0,
+        0
+      ],
+      "error_types": {},
+      "recovery_rate": [],
+      "consistency": []
+    },
+    "system": {
+      "dataset_size": [
+        100,
+        100,
+        100
+      ],
+      "feature_count": [
+        6,
+        6,
+        4
+      ],
+      "insight_count": [
+        5,
+        8,
+        8
+      ],
+      "recommendation_count": [
+        1,
+        2,
+        1
+      ]
+    }
+  },
+  "summary": {
+    "accuracy": {},
+    "efficiency": {
+      "avg_runtime": 1.1132795810699463,
+      "avg_data_collection_runtime": 0.10883712768554688,
+      "avg_data_processing_runtime": 0.12817001342773438,
+      "avg_statistical_analysis_runtime": 0.12339131037394206,
+      "avg_insight_generation_runtime": 0.12069344520568848,
+      "avg_report_generation_runtime": 0.10574738184611003,
+      "avg_memory_usage": 3.84375,
+      "avg_cpu_usage": 15.933333333333332
+    },
+    "reliability": {
+      "error_rate": 0.0,
+      "error_types": {}
+    },
+    "system": {
+      "avg_dataset_size": 100.0,
+      "avg_feature_count": 5.333333333333333,
+      "avg_insight_count": 7.0,
+      "avg_recommendation_count": 1.3333333333333333
+    }
+  },
+  "timestamp": "2025-08-02T14:59:34.394941"
+}

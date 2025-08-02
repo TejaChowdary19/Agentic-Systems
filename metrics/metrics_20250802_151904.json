@@ -1,0 +1,76 @@
+{
+  "metrics": {
+    "accuracy": {
+      "correlation_significance": [],
+      "regression_r_squared": [],
+      "outlier_detection": [],
+      "insight_relevance": []
+    },
+    "efficiency": {
+      "total_runtime": [
+        0.5415599346160889
+      ],
+      "step_runtimes": {
+        "data_collection": [
+          0.10846090316772461
+        ],
+        "data_processing": [
+          0.11193084716796875
+        ],
+        "statistical_analysis": []
+      },
+      "memory_usage": [
+        0.0
+      ],
+      "cpu_usage": [
+        9.82
+      ]
+    },
+    "reliability": {
+      "error_rate": [
+        1,
+        1
+      ],
+      "error_types": {
+        "Exception": 2
+      },
+      "recovery_rate": [
+        0,
+        0
+      ],
+      "consistency": []
+    },
+    "system": {
+      "dataset_size": [
+        0
+      ],
+      "feature_count": [
+        1
+      ],
+      "insight_count": [],
+      "recommendation_count": []
+    }
+  },
+  "summary": {
+    "accuracy": {},
+    "efficiency": {
+      "avg_runtime": 0.5415599346160889,
+      "avg_data_collection_runtime": 0.10846090316772461,
+      "avg_data_processing_runtime": 0.11193084716796875,
+      "avg_memory_usage": 0.0,
+      "avg_cpu_usage": 9.82
+    },
+    "reliability": {
+      "error_rate": 1.0,
+      "recovery_rate": 0.0,
+      "error_types": {
+        "Exception": 2
+      }
+    },
+    "system": {
+      "avg_dataset_size": 0.0,
+      "avg_feature_count": 1.0
+    }
+  },
+  "timestamp": "2025-08-02T15:19:04.669844"
+}

@@ -1,0 +1,90 @@
+{
+  "metrics": {
+    "accuracy": {
+      "correlation_significance": [],
+      "regression_r_squared": [
+        0.616677854654261,
+        0.013178337685812372,
+        0.0015188062777425433
+      ],
+      "outlier_detection": [],
+      "insight_relevance": []
+    },
+    "efficiency": {
+      "total_runtime": [
+        1.1159229278564453
+      ],
+      "step_runtimes": {
+        "data_collection": [
+          0.11452794075012207
+        ],
+        "data_processing": [
+          0.1245729923248291
+        ],
+        "statistical_analysis": [
+          0.12486100196838379
+        ],
+        "insight_generation": [
+          0.12489008903503418
+        ],
+        "report_generation": [
+          0.10660505294799805
+        ]
+      },
+      "memory_usage": [
+        3.3125
+      ],
+      "cpu_usage": [
+        24.759999999999998
+      ]
+    },
+    "reliability": {
+      "error_rate": [
+        0
+      ],
+      "error_types": {},
+      "recovery_rate": [],
+      "consistency": []
+    },
+    "system": {
+      "dataset_size": [
+        500
+      ],
+      "feature_count": [
+        6
+      ],
+      "insight_count": [
+        7
+      ],
+      "recommendation_count": [
+        3
+      ]
+    }
+  },
+  "summary": {
+    "accuracy": {
+      "avg_r_squared": 0.2104583328726053
+    },
+    "efficiency": {
+      "avg_runtime": 1.1159229278564453,
+      "avg_data_collection_runtime": 0.11452794075012207,
+      "avg_data_processing_runtime": 0.1245729923248291,
+      "avg_statistical_analysis_runtime": 0.12486100196838379,
+      "avg_insight_generation_runtime": 0.12489008903503418,
+      "avg_report_generation_runtime": 0.10660505294799805,
+      "avg_memory_usage": 3.3125,
+      "avg_cpu_usage": 24.759999999999998
+    },
+    "reliability": {
+      "error_rate": 0.0,
+      "error_types": {}
+    },
+    "system": {
+      "avg_dataset_size": 500.0,
+      "avg_feature_count": 6.0,
+      "avg_insight_count": 7.0,
+      "avg_recommendation_count": 3.0
+    }
+  },
+  "timestamp": "2025-08-02T15:18:54.158051"
+}

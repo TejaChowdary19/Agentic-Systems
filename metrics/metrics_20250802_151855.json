@@ -1,0 +1,90 @@
+{
+  "metrics": {
+    "accuracy": {
+      "correlation_significance": [],
+      "regression_r_squared": [
+        0.6189433905832461,
+        0.01245814085936324,
+        0.001631919910491132
+      ],
+      "outlier_detection": [],
+      "insight_relevance": []
+    },
+    "efficiency": {
+      "total_runtime": [
+        1.1330711841583252
+      ],
+      "step_runtimes": {
+        "data_collection": [
+          0.11779499053955078
+        ],
+        "data_processing": [
+          0.13322186470031738
+        ],
+        "statistical_analysis": [
+          0.12370872497558594
+        ],
+        "insight_generation": [
+          0.12610483169555664
+        ],
+        "report_generation": [
+          0.10724401473999023
+        ]
+      },
+      "memory_usage": [
+        2.578125
+      ],
+      "cpu_usage": [
+        9.809999999999999
+      ]
+    },
+    "reliability": {
+      "error_rate": [
+        0
+      ],
+      "error_types": {},
+      "recovery_rate": [],
+      "consistency": []
+    },
+    "system": {
+      "dataset_size": [
+        1000
+      ],
+      "feature_count": [
+        6
+      ],
+      "insight_count": [
+        9
+      ],
+      "recommendation_count": [
+        4
+      ]
+    }
+  },
+  "summary": {
+    "accuracy": {
+      "avg_r_squared": 0.2110111504510335
+    },
+    "efficiency": {
+      "avg_runtime": 1.1330711841583252,
+      "avg_data_collection_runtime": 0.11779499053955078,
+      "avg_data_processing_runtime": 0.13322186470031738,
+      "avg_statistical_analysis_runtime": 0.12370872497558594,
+      "avg_insight_generation_runtime": 0.12610483169555664,
+      "avg_report_generation_runtime": 0.10724401473999023,
+      "avg_memory_usage": 2.578125,
+      "avg_cpu_usage": 9.809999999999999
+    },
+    "reliability": {
+      "error_rate": 0.0,
+      "error_types": {}
+    },
+    "system": {
+      "avg_dataset_size": 1000.0,
+      "avg_feature_count": 6.0,
+      "avg_insight_count": 9.0,
+      "avg_recommendation_count": 4.0
+    }
+  },
+  "timestamp": "2025-08-02T15:18:56.351452"
+}

@@ -1,0 +1,123 @@
+{
+  "metrics": {
+    "accuracy": {
+      "correlation_significance": [],
+      "regression_r_squared": [],
+      "outlier_detection": [],
+      "insight_relevance": []
+    },
+    "efficiency": {
+      "total_runtime": [
+        1.1186659336090088,
+        1.121532917022705,
+        1.099639892578125,
+        1.0942027568817139
+      ],
+      "step_runtimes": {
+        "data_collection": [
+          0.11065125465393066,
+          0.10748124122619629,
+          0.10837888717651367,
+          0.11176800727844238
+        ],
+        "data_processing": [
+          0.13145804405212402,
+          0.13401103019714355,
+          0.11904096603393555,
+          0.12022781372070312
+        ],
+        "statistical_analysis": [
+          0.1251049041748047,
+          0.12140798568725586,
+          0.12366104125976562,
+          0.1172020435333252
+        ],
+        "insight_generation": [
+          0.12161517143249512,
+          0.12650704383850098,
+          0.11395812034606934,
+          0.11391782760620117
+        ],
+        "report_generation": [
+          0.10607314109802246,
+          0.1041710376739502,
+          0.10699796676635742,
+          0.1068730354309082
+        ]
+      },
+      "memory_usage": [
+        2.828125,
+        4.140625,
+        4.5625,
+        5.15625
+      ],
+      "cpu_usage": [
+        13.919999999999998,
+        12.73,
+        21.15,
+        13.91
+      ]
+    },
+    "reliability": {
+      "error_rate": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "error_types": {},
+      "recovery_rate": [],
+      "consistency": []
+    },
+    "system": {
+      "dataset_size": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "feature_count": [
+        6,
+        6,
+        4,
+        5
+      ],
+      "insight_count": [
+        5,
+        8,
+        8,
+        7
+      ],
+      "recommendation_count": [
+        1,
+        2,
+        1,
+        1
+      ]
+    }
+  },
+  "summary": {
+    "accuracy": {},
+    "efficiency": {
+      "avg_runtime": 1.1085103750228882,
+      "avg_data_collection_runtime": 0.10956984758377075,
+      "avg_data_processing_runtime": 0.12618446350097656,
+      "avg_statistical_analysis_runtime": 0.12184399366378784,
+      "avg_insight_generation_runtime": 0.11899954080581665,
+      "avg_report_generation_runtime": 0.10602879524230957,
+      "avg_memory_usage": 4.171875,
+      "avg_cpu_usage": 15.427499999999998
+    },
+    "reliability": {
+      "error_rate": 0.0,
+      "error_types": {}
+    },
+    "system": {
+      "avg_dataset_size": 100.0,
+      "avg_feature_count": 5.25,
+      "avg_insight_count": 7.0,
+      "avg_recommendation_count": 1.25
+    }
+  },
+  "timestamp": "2025-08-02T14:59:35.494451"
+}
