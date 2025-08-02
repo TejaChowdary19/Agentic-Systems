@@ -1,0 +1,120 @@
+{
+  "test_case": "Small Dataset Analysis",
+  "status": "passed",
+  "execution_time": 0.014490842819213867,
+  "valid_findings": [
+    "x1 is increasing over time (by 650.0%)",
+    "x2 is increasing over time (by 650.0%)",
+    "x2 has a strong impact on y (R\u00b2 = 0.91). When x2 increases, y typically increases.",
+    "x1 has a strong impact on y (R\u00b2 = 0.91). When x1 increases, y typically increases.",
+    "category segment 'A' has 41.1% higher y than segment 'B'"
+  ],
+  "questionable_findings": [
+    "Strong positive correlation (0.95) between x1 and y. As x1 increases, y tends to increase.",
+    "Strong positive correlation (0.95) between y and x1. As x1 increases, y tends to increase."
+  ],
+  "limitations_acknowledged": true,
+  "key_findings": [
+    {
+      "type": "trend",
+      "finding": "x1 is increasing over time (by 650.0%)"
+    },
+    {
+      "type": "trend",
+      "finding": "x2 is increasing over time (by 650.0%)"
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.95) between x1 and y. As x1 increases, y tends to increase."
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.95) between y and x1. As x1 increases, y tends to increase."
+    },
+    {
+      "type": "prediction",
+      "finding": "x2 has a strong impact on y (R\u00b2 = 0.91). When x2 increases, y typically increases."
+    },
+    {
+      "type": "prediction",
+      "finding": "x1 has a strong impact on y (R\u00b2 = 0.91). When x1 increases, y typically increases."
+    },
+    {
+      "type": "segment",
+      "finding": "category segment 'A' has 41.1% higher y than segment 'B'"
+    }
+  ],
+  "full_result": {
+    "status": "success",
+    "analysis_objective": "Analyze relationships between variables despite limited data",
+    "data_summary": {
+      "original_data": [
+        10,
+        5
+      ],
+      "cleaned_data": [
+        10,
+        5
+      ]
+    },
+    "key_findings": [
+      {
+        "type": "trend",
+        "finding": "x1 is increasing over time (by 650.0%)"
+      },
+      {
+        "type": "trend",
+        "finding": "x2 is increasing over time (by 650.0%)"
+      },
+      {
+        "type": "correlation",
+        "finding": "Strong positive correlation (0.95) between x1 and y. As x1 increases, y tends to increase."
+      },
+      {
+        "type": "correlation",
+        "finding": "Strong positive correlation (0.95) between y and x1. As x1 increases, y tends to increase."
+      },
+      {
+        "type": "prediction",
+        "finding": "x2 has a strong impact on y (R\u00b2 = 0.91). When x2 increases, y typically increases."
+      },
+      {
+        "type": "prediction",
+        "finding": "x1 has a strong impact on y (R\u00b2 = 0.91). When x1 increases, y typically increases."
+      },
+      {
+        "type": "segment",
+        "finding": "category segment 'A' has 41.1% higher y than segment 'B'"
+      }
+    ],
+    "recommendations": [
+      {
+        "type": "trend_analysis",
+        "recommendation": "Conduct deeper time-series analysis on x1 to understand factors driving the increasing trend",
+        "priority": "high"
+      },
+      {
+        "type": "trend_analysis",
+        "recommendation": "Conduct deeper time-series analysis on x2 to understand factors driving the increasing trend",
+        "priority": "high"
+      },
+      {
+        "type": "correlation_investigation",
+        "recommendation": "Investigate potential causal relationship between x1 and y",
+        "priority": "high"
+      },
+      {
+        "type": "segment_analysis",
+        "recommendation": "Analyze factors contributing to high y in category segment 'A'",
+        "priority": "high"
+      }
+    ],
+    "file_paths": {
+      "original_data": "test_data/small_data.csv",
+      "cleaned_data": "test_data/small_data_cleaned.csv",
+      "analysis_results": "test_data/small_data_cleaned_analysis_results.csv.json",
+      "insights": "test_data/small_data_cleaned_insights.json"
+    },
+    "summary": "Analysis Objective: Analyze relationships between variables despite limited data\n\nKey Findings:\n- x1 is increasing over time (by 650.0%)\n- x2 is increasing over time (by 650.0%)\n- Strong positive correlation (0.95) between x1 and y. As x1 increases, y tends to increase.\n- Strong positive correlation (0.95) between y and x1. As x1 increases, y tends to increase.\n- x2 has a strong impact on y (R\u00b2 = 0.91). When x2 increases, y typically increases.\n- x1 has a strong impact on y (R\u00b2 = 0.91). When x1 increases, y typically increases.\n- category segment 'A' has 41.1% higher y than segment 'B'\n\nRecommendations:\n- [high] Conduct deeper time-series analysis on x1 to understand factors driving the increasing trend\n- [high] Conduct deeper time-series analysis on x2 to understand factors driving the increasing trend\n- [high] Investigate potential causal relationship between x1 and y\n- [high] Analyze factors contributing to high y in category segment 'A'\n\nOutput Files:\n- original_data: test_data/small_data.csv\n- cleaned_data: test_data/small_data_cleaned.csv\n- analysis_results: test_data/small_data_cleaned_analysis_results.csv.json\n- insights: test_data/small_data_cleaned_insights.json"
+  }
+}

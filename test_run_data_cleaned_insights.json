@@ -1,0 +1,75 @@
+{
+  "status": "success",
+  "business_context": "Test",
+  "insights": {
+    "trends": [],
+    "outliers": [],
+    "correlations": [
+      {
+        "column1": "x",
+        "column2": "y",
+        "correlation": -0.59,
+        "relationship": "negative",
+        "strength": "moderate",
+        "insight": "Moderate negative correlation (-0.59) between x and y. As x increases, y tends to decrease."
+      },
+      {
+        "column1": "y",
+        "column2": "z",
+        "correlation": 0.276,
+        "relationship": "positive",
+        "strength": "weak",
+        "insight": "Weak positive correlation (0.28) between y and z. As z increases, y tends to increase."
+      },
+      {
+        "column1": "z",
+        "column2": "y",
+        "correlation": 0.276,
+        "relationship": "positive",
+        "strength": "weak",
+        "insight": "Weak positive correlation (0.28) between z and y. As z increases, y tends to increase."
+      },
+      {
+        "column1": "x",
+        "column2": "z",
+        "correlation": -0.032,
+        "relationship": "negative",
+        "strength": "weak",
+        "insight": "Weak negative correlation (-0.03) between x and z"
+      },
+      {
+        "column1": "z",
+        "column2": "x",
+        "correlation": -0.032,
+        "relationship": "negative",
+        "strength": "weak",
+        "insight": "Weak negative correlation (-0.03) between z and x"
+      }
+    ],
+    "predictions": {
+      "target": "y",
+      "insights": [
+        {
+          "feature": "x",
+          "r_squared": 0.347786057603463,
+          "p_value": 0.006204872195412624,
+          "direction": "negative",
+          "impact": "moderate",
+          "insight": "x has a moderate impact on y (R\u00b2 = 0.35). When x decreases, y typically decreases.",
+          "evidence": "When x is above average, y is on average 63.8% lower"
+        }
+      ]
+    },
+    "segments": []
+  },
+  "data_summary": {
+    "rows": 20,
+    "columns": 3,
+    "column_types": {
+      "x": "float64",
+      "y": "float64",
+      "z": "float64"
+    }
+  },
+  "recommended_next_steps": []
+}

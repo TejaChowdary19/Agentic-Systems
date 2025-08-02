@@ -1,0 +1,12 @@
+{
+  "test_case": "Error Handling - Corrupted File",
+  "status": "passed",
+  "execution_time": 0.0005667209625244141,
+  "has_format_error": false,
+  "error_message": "Data retrieval failed: Error tokenizing data. C error: Expected 3 fields in line 5, saw 4\n",
+  "full_result": {
+    "status": "error",
+    "error_message": "Data retrieval failed: Error tokenizing data. C error: Expected 3 fields in line 5, saw 4\n",
+    "error_type": "Exception"
+  }
+}

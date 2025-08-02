@@ -1,0 +1,105 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Data Analysis System Test Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2, h3 { color: #2c3e50; }
+            .summary { background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+            .test-details { margin-bottom: 30px; }
+            .passed { color: #28a745; }
+            .failed { color: #dc3545; }
+            table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .charts { display: flex; justify-content: space-around; flex-wrap: wrap; margin: 20px 0; }
+            .chart { margin: 10px; text-align: center; }
+            img { max-width: 100%; height: auto; }
+        </style>
+    </head>
+    <body>
+        <h1>Data Analysis System Functional Test Report</h1>
+        
+        <div class="summary">
+            <h2>Summary</h2>
+            <p><strong>Total Tests:</strong> 5</p>
+            <p><strong>Tests Passed:</strong> 5</p>
+            <p><strong>Tests Failed:</strong> 0</p>
+            <p><strong>Pass Rate:</strong> 100.0%</p>
+            <p><strong>Overall Execution Time:</strong> 0.07 seconds</p>
+        </div>
+        
+        <div class="charts">
+            <div class="chart">
+                <h3>Test Execution Times</h3>
+                <img src="execution_times.png" alt="Execution Times Chart">
+            </div>
+            <div class="chart">
+                <h3>Pass/Fail Results</h3>
+                <img src="pass_fail.png" alt="Pass/Fail Chart">
+            </div>
+        </div>
+        
+        <div class="test-details">
+            <h2>Test Details</h2>
+            <table>
+                <tr>
+                    <th>Test Case</th>
+                    <th>Status</th>
+                    <th>Execution Time (s)</th>
+                    <th>Notes</th>
+                </tr>
+    
+                <tr>
+                    <td>clean_data</td>
+                    <td class="passed">passed</td>
+                    <td>0.02</td>
+                    <td>Found 66.7% of expected insights</td>
+                </tr>
+        
+                <tr>
+                    <td>messy_data</td>
+                    <td class="passed">passed</td>
+                    <td>0.02</td>
+                    <td>Insight rate: 33.3%, Cleaning rate: 100.0%</td>
+                </tr>
+        
+                <tr>
+                    <td>small_data</td>
+                    <td class="passed">passed</td>
+                    <td>0.01</td>
+                    <td>Valid findings: 5, Questionable: 2, Acknowledged limitations: Yes</td>
+                </tr>
+        
+                <tr>
+                    <td>error_missing_file</td>
+                    <td class="passed">passed</td>
+                    <td>0.00</td>
+                    <td>Error message: Data retrieval failed: [Errno 2] No such file or d...</td>
+                </tr>
+        
+                <tr>
+                    <td>error_corrupted_file</td>
+                    <td class="passed">passed</td>
+                    <td>0.00</td>
+                    <td>Error message: Data retrieval failed: Error tokenizing data. C er...</td>
+                </tr>
+        
+            </table>
+        </div>
+        
+        <div class="recommendations">
+            <h2>Recommendations</h2>
+            <ul>
+    <li>Improve pattern detection algorithms to identify more expected relationships in clean data</li>
+<li>Implement more sophisticated statistical tests to improve insight quality</li>
+<li>Add more comprehensive error messages with specific recovery suggestions</li>
+<li>Consider implementing parallel processing for better performance with large datasets</li>
+
+            </ul>
+        </div>
+    </body>
+    </html>
+    

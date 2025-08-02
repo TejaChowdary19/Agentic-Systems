@@ -1,0 +1,12 @@
+{
+  "test_case": "Error Handling - Missing File",
+  "status": "passed",
+  "execution_time": 0.003014087677001953,
+  "has_file_error": true,
+  "error_message": "Data retrieval failed: [Errno 2] No such file or directory: 'test_data/non_existent_file.csv'",
+  "full_result": {
+    "status": "error",
+    "error_message": "Data retrieval failed: [Errno 2] No such file or directory: 'test_data/non_existent_file.csv'",
+    "error_type": "Exception"
+  }
+}
