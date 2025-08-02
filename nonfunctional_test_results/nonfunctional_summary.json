@@ -1,0 +1,22 @@
+{
+  "overall_execution_time": 1.4103739261627197,
+  "performance": {
+    "largest_dataset_size": 50000,
+    "max_execution_time": 0.44974803924560547,
+    "max_memory_used": 64.296875,
+    "max_processing_rate": 111173.35849616726
+  },
+  "reliability": {
+    "success_rate": 100.0,
+    "avg_execution_time": 0.020692825317382812,
+    "execution_time_variability": 2.547062009647665,
+    "insight_consistency": 1.0
+  },
+  "usability": {
+    "overall_usability_score": 30.374999999999996,
+    "insight_clarity": 0.5625,
+    "insight_actionability": 0.25,
+    "recommendation_clarity": 0.25,
+    "recommendation_actionability": 0.05
+  }
+}

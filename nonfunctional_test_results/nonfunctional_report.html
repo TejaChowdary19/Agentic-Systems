@@ -1,0 +1,173 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Data Analysis System Non-Functional Test Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2, h3 { color: #2c3e50; }
+            .summary { background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+            .test-details { margin-bottom: 30px; }
+            .passed { color: #28a745; }
+            .warning { color: #fd7e14; }
+            .failed { color: #dc3545; }
+            table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .charts { display: flex; justify-content: space-around; flex-wrap: wrap; margin: 20px 0; }
+            .chart { margin: 10px; text-align: center; }
+            img { max-width: 100%; height: auto; }
+            .metric { margin-bottom: 10px; }
+            .metric-name { font-weight: bold; }
+            progress { width: 100%; height: 20px; }
+            .score-high { color: #28a745; }
+            .score-medium { color: #fd7e14; }
+            .score-low { color: #dc3545; }
+        </style>
+    </head>
+    <body>
+        <h1>Data Analysis System Non-Functional Test Report</h1>
+        
+        <div class="summary">
+            <h2>Overall Quality Assessment</h2>
+            <div class="charts">
+                <div class="chart">
+                    <img src="quality_radar.png" alt="System Quality Metrics">
+                </div>
+            </div>
+        </div>
+        
+        <div class="test-details">
+            <h2>Performance Test Results</h2>
+            <table>
+                <tr>
+                    <th>Metric</th>
+                    <th>Value</th>
+                    <th>Rating</th>
+                </tr>
+                <tr>
+                    <td>Largest Dataset Processed</td>
+                    <td>50000 rows</td>
+                    <td class="passed">Excellent</td>
+                </tr>
+                <tr>
+                    <td>Maximum Execution Time</td>
+                    <td>0.45 seconds</td>
+                    <td class="passed">Excellent</td>
+                </tr>
+                <tr>
+                    <td>Maximum Memory Usage</td>
+                    <td>64.30 MB</td>
+                    <td class="passed">Excellent</td>
+                </tr>
+                <tr>
+                    <td>Maximum Processing Rate</td>
+                    <td>111173.36 rows/second</td>
+                    <td class="passed">Excellent</td>
+                </tr>
+            </table>
+            
+            <p>Performance tests measured how efficiently the system processes datasets of various sizes.</p>
+            <p>View detailed performance results in the <a href="../performance_results/performance_metrics.json">performance metrics file</a>.</p>
+        </div>
+        
+        <div class="test-details">
+            <h2>Reliability Test Results</h2>
+            <table>
+                <tr>
+                    <th>Metric</th>
+                    <th>Value</th>
+                    <th>Rating</th>
+                </tr>
+                <tr>
+                    <td>Success Rate</td>
+                    <td>100.0%</td>
+                    <td class="passed">Excellent</td>
+                </tr>
+                <tr>
+                    <td>Average Execution Time</td>
+                    <td>0.02 seconds</td>
+                    <td class="passed">Excellent</td>
+                </tr>
+                <tr>
+                    <td>Execution Time Variability</td>
+                    <td>2.55%</td>
+                    <td class="passed">Excellent</td>
+                </tr>
+                <tr>
+                    <td>Insight Consistency</td>
+                    <td>1.00</td>
+                    <td class="passed">Excellent</td>
+                </tr>
+            </table>
+            
+            <p>Reliability tests measured how consistently the system performs across multiple executions.</p>
+            <p>View detailed reliability results in the <a href="../reliability_results/reliability_metrics.json">reliability metrics file</a>.</p>
+        </div>
+        
+        <div class="test-details">
+            <h2>Usability Test Results</h2>
+            
+            <div class="metric">
+                <div class="metric-name">Overall Usability Score: 
+                    <span class="score-low">
+                        30.4/100
+                    </span>
+                </div>
+                <progress value="30.374999999999996" max="100"></progress>
+            </div>
+            
+            <div class="metric">
+                <div class="metric-name">Insight Clarity: 
+                    <span class="score-medium">
+                        0.56
+                    </span>
+                </div>
+                <progress value="56.25" max="100"></progress>
+            </div>
+            
+            <div class="metric">
+                <div class="metric-name">Insight Actionability: 
+                    <span class="score-low">
+                        0.25
+                    </span>
+                </div>
+                <progress value="25.0" max="100"></progress>
+            </div>
+            
+            <div class="metric">
+                <div class="metric-name">Recommendation Clarity: 
+                    <span class="score-low">
+                        0.25
+                    </span>
+                </div>
+                <progress value="25.0" max="100"></progress>
+            </div>
+            
+            <div class="metric">
+                <div class="metric-name">Recommendation Actionability: 
+                    <span class="score-low">
+                        0.05
+                    </span>
+                </div>
+                <progress value="5.0" max="100"></progress>
+            </div>
+            
+            <p>Usability tests evaluated how clear and actionable the system's insights and recommendations are.</p>
+            <p>View detailed usability results in the <a href="../usability_results/usability_report.html">usability report</a>.</p>
+        </div>
+        
+        <div class="test-details">
+            <h2>Recommendations for Improvement</h2>
+            <ul>
+    <li>Improve insight clarity by ensuring all insights include metrics, directions, and magnitudes</li><li>Enhance insight actionability by including more specific recommendations and causal relationships</li>
+                <li>Implement parallel processing for better performance with large datasets</li>
+                <li>Add more advanced statistical methods to improve insight quality</li>
+                <li>Enhance visualization capabilities to better communicate insights</li>
+                <li>Implement user feedback collection to continuously improve usability</li>
+            </ul>
+        </div>
+    </body>
+    </html>
+    

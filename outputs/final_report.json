@@ -1,0 +1,81 @@
+{
+  "status": "success",
+  "analysis_objective": "Analyze sales performance and identify opportunities for improvement",
+  "data_summary": {
+    "original_data": [
+      500,
+      10
+    ],
+    "cleaned_data": [
+      500,
+      10
+    ]
+  },
+  "key_findings": [
+    {
+      "type": "trend",
+      "finding": "daily_sales is increasing over time (by 33.22%)"
+    },
+    {
+      "type": "trend",
+      "finding": "marketing_spend is increasing over time (by 125.43%)"
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.97) between new_customers and repeat_customers"
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.97) between repeat_customers and new_customers"
+    },
+    {
+      "type": "prediction",
+      "finding": "repeat_customers has a moderate impact on daily_sales (R\u00b2 = 0.29). When repeat_customers increases, daily_sales typically increases."
+    },
+    {
+      "type": "prediction",
+      "finding": "new_customers has a moderate impact on daily_sales (R\u00b2 = 0.27). When new_customers increases, daily_sales typically increases."
+    },
+    {
+      "type": "segment",
+      "finding": "product_category segment 'Toys' has 378.4% higher profit_margin than segment 'Books'"
+    },
+    {
+      "type": "segment",
+      "finding": "product_category segment 'Toys' has 269.3% higher profit than segment 'Books'"
+    }
+  ],
+  "recommendations": [
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on daily_sales to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on marketing_spend to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "correlation_investigation",
+      "recommendation": "Investigate potential causal relationship between new_customers and repeat_customers",
+      "priority": "high"
+    },
+    {
+      "type": "segment_analysis",
+      "recommendation": "Analyze factors contributing to high profit_margin in product_category segment 'Toys'",
+      "priority": "high"
+    },
+    {
+      "type": "outlier_investigation",
+      "recommendation": "Investigate identified outliers to determine if they represent data quality issues or valuable business exceptions",
+      "priority": "medium"
+    }
+  ],
+  "file_paths": {
+    "original_data": "usability_data/business_dataset.csv",
+    "cleaned_data": "usability_data/business_dataset_cleaned.csv",
+    "analysis_results": "usability_data/business_dataset_cleaned_analysis_results.csv.json",
+    "insights": "usability_data/business_dataset_cleaned_insights.json"
+  }
+}

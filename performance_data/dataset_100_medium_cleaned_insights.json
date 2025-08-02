@@ -1,0 +1,226 @@
+{
+  "status": "success",
+  "business_context": "Evaluating system performance",
+  "insights": {
+    "trends": [
+      {
+        "column": "numeric_0",
+        "date_column": "date",
+        "direction": "increasing",
+        "percent_change": 210.31,
+        "start_value": 0.25,
+        "end_value": 0.77,
+        "insight": "numeric_0 is increasing over time (by 210.31%)"
+      },
+      {
+        "column": "numeric_1",
+        "date_column": "date",
+        "direction": "decreasing",
+        "percent_change": -38.72,
+        "start_value": 0.51,
+        "end_value": 0.31,
+        "insight": "numeric_1 is decreasing over time (by 38.72%)"
+      },
+      {
+        "column": "numeric_2",
+        "date_column": "date",
+        "direction": "increasing",
+        "percent_change": 119.83,
+        "start_value": 0.3,
+        "end_value": 0.65,
+        "insight": "numeric_2 is increasing over time (by 119.83%)"
+      },
+      {
+        "column": "numeric_3",
+        "date_column": "date",
+        "direction": "increasing",
+        "percent_change": 107.71,
+        "start_value": 0.31,
+        "end_value": 0.64,
+        "insight": "numeric_3 is increasing over time (by 107.71%)"
+      },
+      {
+        "column": "numeric_4",
+        "date_column": "date",
+        "direction": "increasing",
+        "percent_change": 222.61,
+        "start_value": 0.23,
+        "end_value": 0.74,
+        "insight": "numeric_4 is increasing over time (by 222.61%)"
+      },
+      {
+        "column": "target",
+        "date_column": "date",
+        "direction": "increasing",
+        "percent_change": 153.08,
+        "start_value": 0.27,
+        "end_value": 0.68,
+        "insight": "target is increasing over time (by 153.08%)"
+      }
+    ],
+    "outliers": [],
+    "correlations": [
+      {
+        "column1": "numeric_0",
+        "column2": "numeric_4",
+        "correlation": 0.909,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.91) between numeric_0 and numeric_4"
+      },
+      {
+        "column1": "numeric_4",
+        "column2": "numeric_0",
+        "correlation": 0.909,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.91) between numeric_4 and numeric_0"
+      },
+      {
+        "column1": "target",
+        "column2": "numeric_2",
+        "correlation": 0.894,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.89) between target and numeric_2. As numeric_2 increases, target tends to increase."
+      },
+      {
+        "column1": "numeric_2",
+        "column2": "target",
+        "correlation": 0.894,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.89) between numeric_2 and target. As numeric_2 increases, target tends to increase."
+      },
+      {
+        "column1": "target",
+        "column2": "numeric_4",
+        "correlation": 0.729,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.73) between target and numeric_4. As numeric_4 increases, target tends to increase."
+      }
+    ],
+    "predictions": {
+      "target": "target",
+      "insights": [
+        {
+          "feature": "numeric_2",
+          "r_squared": 0.7983662008980859,
+          "p_value": 7.527161459069901e-36,
+          "direction": "positive",
+          "impact": "strong",
+          "insight": "numeric_2 has a strong impact on target (R\u00b2 = 0.8). When numeric_2 increases, target typically increases.",
+          "evidence": "When numeric_2 is above average, target is on average 129.9% higher"
+        },
+        {
+          "feature": "numeric_4",
+          "r_squared": 0.5316395427829543,
+          "p_value": 7.890315720644298e-18,
+          "direction": "positive",
+          "impact": "strong",
+          "insight": "numeric_4 has a strong impact on target (R\u00b2 = 0.53). When numeric_4 increases, target typically increases.",
+          "evidence": "When numeric_4 is above average, target is on average 86.6% higher"
+        },
+        {
+          "feature": "numeric_0",
+          "r_squared": 0.45208428122465,
+          "p_value": 1.8598058077051854e-14,
+          "direction": "positive",
+          "impact": "moderate",
+          "insight": "numeric_0 has a moderate impact on target (R\u00b2 = 0.45). When numeric_0 increases, target typically increases.",
+          "evidence": "When numeric_0 is above average, target is on average 86.8% higher"
+        }
+      ]
+    },
+    "segments": [
+      {
+        "segment_column": "category_1",
+        "value_column": "numeric_0",
+        "top_segment": "A",
+        "bottom_segment": "E",
+        "top_value": 0.6283108861380885,
+        "bottom_value": 0.39118035226486875,
+        "percent_difference": 60.62,
+        "insight": "category_1 segment 'A' has 60.6% higher numeric_0 than segment 'E'"
+      },
+      {
+        "segment_column": "category_1",
+        "value_column": "numeric_4",
+        "top_segment": "A",
+        "bottom_segment": "E",
+        "top_value": 0.5962988895538082,
+        "bottom_value": 0.3831973059348914,
+        "percent_difference": 55.61,
+        "insight": "category_1 segment 'A' has 55.6% higher numeric_4 than segment 'E'"
+      },
+      {
+        "segment_column": "category_1",
+        "value_column": "numeric_1",
+        "top_segment": "E",
+        "bottom_segment": "A",
+        "top_value": 0.506860783992901,
+        "bottom_value": 0.3351888573743364,
+        "percent_difference": 51.22,
+        "insight": "category_1 segment 'E' has 51.2% higher numeric_1 than segment 'A'"
+      },
+      {
+        "segment_column": "category_0",
+        "value_column": "numeric_0",
+        "top_segment": "A",
+        "bottom_segment": "B",
+        "top_value": 0.6027723760257535,
+        "bottom_value": 0.4072451846302142,
+        "percent_difference": 48.01,
+        "insight": "category_0 segment 'A' has 48.0% higher numeric_0 than segment 'B'"
+      },
+      {
+        "segment_column": "category_0",
+        "value_column": "numeric_1",
+        "top_segment": "B",
+        "bottom_segment": "E",
+        "top_value": 0.5439163258695882,
+        "bottom_value": 0.38774925430323365,
+        "percent_difference": 40.28,
+        "insight": "category_0 segment 'B' has 40.3% higher numeric_1 than segment 'E'"
+      }
+    ]
+  },
+  "data_summary": {
+    "rows": 100,
+    "columns": 9,
+    "column_types": {
+      "date": "object",
+      "numeric_0": "float64",
+      "numeric_1": "float64",
+      "numeric_2": "float64",
+      "numeric_3": "float64",
+      "numeric_4": "float64",
+      "category_0": "object",
+      "category_1": "object",
+      "target": "float64"
+    }
+  },
+  "recommended_next_steps": [
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on numeric_0 to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on numeric_1 to understand factors driving the decreasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "correlation_investigation",
+      "recommendation": "Investigate potential causal relationship between numeric_0 and numeric_4",
+      "priority": "high"
+    },
+    {
+      "type": "segment_analysis",
+      "recommendation": "Analyze factors contributing to high numeric_0 in category_1 segment 'A'",
+      "priority": "high"
+    }
+  ]
+}
