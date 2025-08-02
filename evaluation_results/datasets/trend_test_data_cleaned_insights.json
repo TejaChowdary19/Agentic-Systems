@@ -1,0 +1,106 @@
+{
+  "status": "success",
+  "business_context": null,
+  "insights": {
+    "trends": [
+      {
+        "column": "increasing_trend",
+        "date_column": "date",
+        "direction": "increasing",
+        "percent_change": 315.56,
+        "start_value": 0.19,
+        "end_value": 0.78,
+        "insight": "increasing_trend is increasing over time (by 315.56%)"
+      },
+      {
+        "column": "decreasing_trend",
+        "date_column": "date",
+        "direction": "decreasing",
+        "percent_change": -76.52,
+        "start_value": 0.82,
+        "end_value": 0.19,
+        "insight": "decreasing_trend is decreasing over time (by 76.52%)"
+      },
+      {
+        "column": "seasonal_trend",
+        "date_column": "date",
+        "direction": "decreasing",
+        "percent_change": -48.22,
+        "start_value": 0.65,
+        "end_value": 0.34,
+        "insight": "seasonal_trend is decreasing over time (by 48.22%)"
+      }
+    ],
+    "outliers": [],
+    "correlations": [
+      {
+        "column1": "decreasing_trend",
+        "column2": "seasonal_trend",
+        "correlation": 0.392,
+        "relationship": "positive",
+        "strength": "moderate",
+        "insight": "Moderate positive correlation (0.39) between decreasing_trend and seasonal_trend"
+      },
+      {
+        "column1": "seasonal_trend",
+        "column2": "decreasing_trend",
+        "correlation": 0.392,
+        "relationship": "positive",
+        "strength": "moderate",
+        "insight": "Moderate positive correlation (0.39) between seasonal_trend and decreasing_trend"
+      },
+      {
+        "column1": "decreasing_trend",
+        "column2": "flat_no_trend",
+        "correlation": 0.093,
+        "relationship": "positive",
+        "strength": "weak",
+        "insight": "Weak positive correlation (0.09) between decreasing_trend and flat_no_trend"
+      },
+      {
+        "column1": "flat_no_trend",
+        "column2": "decreasing_trend",
+        "correlation": 0.093,
+        "relationship": "positive",
+        "strength": "weak",
+        "insight": "Weak positive correlation (0.09) between flat_no_trend and decreasing_trend"
+      },
+      {
+        "column1": "decreasing_trend",
+        "column2": "nonlinear_trend",
+        "correlation": 0.023,
+        "relationship": "positive",
+        "strength": "weak",
+        "insight": "Weak positive correlation (0.02) between decreasing_trend and nonlinear_trend"
+      }
+    ],
+    "predictions": {
+      "error": "Target column must be specified for predictive insights"
+    },
+    "segments": []
+  },
+  "data_summary": {
+    "rows": 100,
+    "columns": 6,
+    "column_types": {
+      "date": "object",
+      "increasing_trend": "float64",
+      "decreasing_trend": "float64",
+      "flat_no_trend": "float64",
+      "nonlinear_trend": "float64",
+      "seasonal_trend": "float64"
+    }
+  },
+  "recommended_next_steps": [
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on increasing_trend to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on decreasing_trend to understand factors driving the decreasing trend",
+      "priority": "high"
+    }
+  ]
+}

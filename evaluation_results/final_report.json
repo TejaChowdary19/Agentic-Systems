@@ -1,0 +1,45 @@
+{
+  "status": "success",
+  "analysis_objective": "Identify differences between segments",
+  "data_summary": {
+    "original_data": [
+      100,
+      5
+    ],
+    "cleaned_data": [
+      100,
+      5
+    ]
+  },
+  "key_findings": [
+    {
+      "type": "correlation",
+      "finding": "Weak positive correlation (0.24) between large_segment_diff and medium_segment_diff"
+    },
+    {
+      "type": "correlation",
+      "finding": "Weak positive correlation (0.24) between medium_segment_diff and large_segment_diff"
+    },
+    {
+      "type": "segment",
+      "finding": "segment segment 'A' has 214.5% higher large_segment_diff than segment 'B'"
+    },
+    {
+      "type": "segment",
+      "finding": "segment segment 'C' has 76.3% higher medium_segment_diff than segment 'B'"
+    }
+  ],
+  "recommendations": [
+    {
+      "type": "segment_analysis",
+      "recommendation": "Analyze factors contributing to high large_segment_diff in segment segment 'A'",
+      "priority": "high"
+    }
+  ],
+  "file_paths": {
+    "original_data": "evaluation_results/datasets/segment_test_data.csv",
+    "cleaned_data": "evaluation_results/datasets/segment_test_data_cleaned.csv",
+    "analysis_results": "evaluation_results/datasets/segment_test_data_cleaned_analysis_results.csv.json",
+    "insights": "evaluation_results/datasets/segment_test_data_cleaned_insights.json"
+  }
+}

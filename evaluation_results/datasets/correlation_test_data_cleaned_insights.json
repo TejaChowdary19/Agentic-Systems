@@ -1,0 +1,73 @@
+{
+  "status": "success",
+  "business_context": null,
+  "insights": {
+    "trends": [],
+    "outliers": [],
+    "correlations": [
+      {
+        "column1": "x1",
+        "column2": "strong_positive_y1",
+        "correlation": 0.927,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.93) between x1 and strong_positive_y1"
+      },
+      {
+        "column1": "strong_positive_y1",
+        "column2": "x1",
+        "correlation": 0.927,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.93) between strong_positive_y1 and x1"
+      },
+      {
+        "column1": "weak_mixed_y3",
+        "column2": "x1",
+        "correlation": 0.602,
+        "relationship": "positive",
+        "strength": "moderate",
+        "insight": "Moderate positive correlation (0.6) between weak_mixed_y3 and x1"
+      },
+      {
+        "column1": "x1",
+        "column2": "weak_mixed_y3",
+        "correlation": 0.602,
+        "relationship": "positive",
+        "strength": "moderate",
+        "insight": "Moderate positive correlation (0.6) between x1 and weak_mixed_y3"
+      },
+      {
+        "column1": "weak_mixed_y3",
+        "column2": "strong_positive_y1",
+        "correlation": 0.536,
+        "relationship": "positive",
+        "strength": "moderate",
+        "insight": "Moderate positive correlation (0.54) between weak_mixed_y3 and strong_positive_y1"
+      }
+    ],
+    "predictions": {
+      "error": "Target column must be specified for predictive insights"
+    },
+    "segments": []
+  },
+  "data_summary": {
+    "rows": 100,
+    "columns": 6,
+    "column_types": {
+      "x1": "float64",
+      "x2": "float64",
+      "strong_positive_y1": "float64",
+      "moderate_negative_y2": "float64",
+      "weak_mixed_y3": "float64",
+      "uncorrelated_y4": "float64"
+    }
+  },
+  "recommended_next_steps": [
+    {
+      "type": "correlation_investigation",
+      "recommendation": "Investigate potential causal relationship between x1 and strong_positive_y1",
+      "priority": "high"
+    }
+  ]
+}

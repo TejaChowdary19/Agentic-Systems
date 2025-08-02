@@ -1,0 +1,93 @@
+{
+  "status": "success",
+  "business_context": null,
+  "insights": {
+    "trends": [],
+    "outliers": [],
+    "correlations": [
+      {
+        "column1": "large_segment_diff",
+        "column2": "medium_segment_diff",
+        "correlation": 0.24,
+        "relationship": "positive",
+        "strength": "weak",
+        "insight": "Weak positive correlation (0.24) between large_segment_diff and medium_segment_diff"
+      },
+      {
+        "column1": "medium_segment_diff",
+        "column2": "large_segment_diff",
+        "correlation": 0.24,
+        "relationship": "positive",
+        "strength": "weak",
+        "insight": "Weak positive correlation (0.24) between medium_segment_diff and large_segment_diff"
+      },
+      {
+        "column1": "large_segment_diff",
+        "column2": "no_segment_diff",
+        "correlation": -0.129,
+        "relationship": "negative",
+        "strength": "weak",
+        "insight": "Weak negative correlation (-0.13) between large_segment_diff and no_segment_diff"
+      },
+      {
+        "column1": "medium_segment_diff",
+        "column2": "no_segment_diff",
+        "correlation": -0.004,
+        "relationship": "negative",
+        "strength": "weak",
+        "insight": "Weak negative correlation (-0.0) between medium_segment_diff and no_segment_diff"
+      },
+      {
+        "column1": "no_segment_diff",
+        "column2": "medium_segment_diff",
+        "correlation": -0.004,
+        "relationship": "negative",
+        "strength": "weak",
+        "insight": "Weak negative correlation (-0.0) between no_segment_diff and medium_segment_diff"
+      }
+    ],
+    "predictions": {
+      "error": "Target column must be specified for predictive insights"
+    },
+    "segments": [
+      {
+        "segment_column": "segment",
+        "value_column": "large_segment_diff",
+        "top_segment": "A",
+        "bottom_segment": "B",
+        "top_value": 0.7907260648559148,
+        "bottom_value": 0.2514339471225093,
+        "percent_difference": 214.49,
+        "insight": "segment segment 'A' has 214.5% higher large_segment_diff than segment 'B'"
+      },
+      {
+        "segment_column": "segment",
+        "value_column": "medium_segment_diff",
+        "top_segment": "C",
+        "bottom_segment": "B",
+        "top_value": 0.6434728014815996,
+        "bottom_value": 0.3650483739767461,
+        "percent_difference": 76.27,
+        "insight": "segment segment 'C' has 76.3% higher medium_segment_diff than segment 'B'"
+      }
+    ]
+  },
+  "data_summary": {
+    "rows": 100,
+    "columns": 5,
+    "column_types": {
+      "segment": "object",
+      "category": "object",
+      "large_segment_diff": "float64",
+      "medium_segment_diff": "float64",
+      "no_segment_diff": "float64"
+    }
+  },
+  "recommended_next_steps": [
+    {
+      "type": "segment_analysis",
+      "recommendation": "Analyze factors contributing to high large_segment_diff in segment segment 'A'",
+      "priority": "high"
+    }
+  ]
+}

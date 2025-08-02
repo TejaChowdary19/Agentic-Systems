@@ -1,0 +1,113 @@
+{
+  "status": "success",
+  "analyses": {
+    "descriptive": {
+      "increasing_trend": {
+        "count": 100.0,
+        "mean": 0.4852906532655728,
+        "std": 0.26269737178159214,
+        "min": 0.0,
+        "25%": 0.263710733534709,
+        "50%": 0.4700117488483072,
+        "75%": 0.7038277866362187,
+        "max": 1.0,
+        "skew": -0.0024223017545940612,
+        "kurtosis": -1.069161681706273
+      },
+      "decreasing_trend": {
+        "count": 100.0,
+        "mean": 0.5051476124368687,
+        "std": 0.27712981221337674,
+        "min": 0.0,
+        "25%": 0.2766360639555425,
+        "50%": 0.5250382100985488,
+        "75%": 0.7462263271245231,
+        "max": 1.0,
+        "skew": -0.06447268556105615,
+        "kurtosis": -1.135554712241088
+      },
+      "flat_no_trend": {
+        "count": 100.0,
+        "mean": 0.4760049808189,
+        "std": 0.21589466899327794,
+        "min": 0.0,
+        "25%": 0.32574650986545406,
+        "50%": 0.4873662681294907,
+        "75%": 0.6228554367791768,
+        "max": 1.0,
+        "skew": -0.15021733517591032,
+        "kurtosis": -0.291318662489394
+      },
+      "nonlinear_trend": {
+        "count": 100.0,
+        "mean": 0.4433713147491137,
+        "std": 0.2303474432580953,
+        "min": 0.0,
+        "25%": 0.2619749091570636,
+        "50%": 0.4035533714625673,
+        "75%": 0.590738710480201,
+        "max": 1.0,
+        "skew": 0.5177386138383253,
+        "kurtosis": -0.5319845349029899
+      },
+      "seasonal_trend": {
+        "count": 100.0,
+        "mean": 0.49066158296877527,
+        "std": 0.31484298617722173,
+        "min": 0.0,
+        "25%": 0.19721645146539704,
+        "50%": 0.5091017476884018,
+        "75%": 0.7919974374154201,
+        "max": 1.0,
+        "skew": -0.02383525918444862,
+        "kurtosis": -1.4474280986015802
+      }
+    },
+    "correlation": {
+      "matrix": {
+        "increasing_trend": {
+          "increasing_trend": 1.0,
+          "decreasing_trend": -0.9749617309385381,
+          "flat_no_trend": -0.11130812848800803,
+          "nonlinear_trend": -0.032641825976979164,
+          "seasonal_trend": -0.3965996125854825
+        },
+        "decreasing_trend": {
+          "increasing_trend": -0.9749617309385381,
+          "decreasing_trend": 1.0,
+          "flat_no_trend": 0.09276528318292723,
+          "nonlinear_trend": 0.023400508557660116,
+          "seasonal_trend": 0.3921626504754427
+        },
+        "flat_no_trend": {
+          "increasing_trend": -0.11130812848800803,
+          "decreasing_trend": 0.09276528318292723,
+          "flat_no_trend": 1.0,
+          "nonlinear_trend": -0.02304377704158868,
+          "seasonal_trend": -0.10993605352724824
+        },
+        "nonlinear_trend": {
+          "increasing_trend": -0.032641825976979164,
+          "decreasing_trend": 0.023400508557660116,
+          "flat_no_trend": -0.02304377704158868,
+          "nonlinear_trend": 1.0,
+          "seasonal_trend": 0.005235318958787702
+        },
+        "seasonal_trend": {
+          "increasing_trend": -0.3965996125854825,
+          "decreasing_trend": 0.3921626504754427,
+          "flat_no_trend": -0.10993605352724824,
+          "nonlinear_trend": 0.005235318958787702,
+          "seasonal_trend": 1.0
+        }
+      },
+      "highest_correlations": {
+        "decreasing_trend__seasonal_trend": 0.3921626504754427,
+        "seasonal_trend__decreasing_trend": 0.3921626504754427,
+        "decreasing_trend__flat_no_trend": 0.09276528318292723,
+        "flat_no_trend__decreasing_trend": 0.09276528318292723,
+        "decreasing_trend__nonlinear_trend": 0.023400508557660116
+      }
+    }
+  }
+}

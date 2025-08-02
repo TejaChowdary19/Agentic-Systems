@@ -1,0 +1,111 @@
+{
+  "status": "success",
+  "business_context": null,
+  "insights": {
+    "trends": [],
+    "outliers": [
+      {
+        "column": "x1",
+        "value": 1.0,
+        "std_deviations": 3.8,
+        "direction": "above",
+        "context": {
+          "id": "0.5959595959595959",
+          "x1": "1.0",
+          "x2": "0.4752534621504448",
+          "normal_col": "0.7242251034324058"
+        },
+        "insight": "Found outlier in x1: value 1.0 is 3.8 standard deviations above the mean"
+      },
+      {
+        "column": "x2",
+        "value": 1.0,
+        "std_deviations": 3.6,
+        "direction": "above",
+        "context": {
+          "id": "0.7373737373737373",
+          "x1": "0.5097627932984363",
+          "x2": "1.0",
+          "normal_col": "0.6116147853528742"
+        },
+        "insight": "Found outlier in x2: value 1.0 is 3.6 standard deviations above the mean"
+      },
+      {
+        "column": "x2",
+        "value": 0.0,
+        "std_deviations": 3.7,
+        "direction": "below",
+        "context": {
+          "id": "0.0101010101010101",
+          "x1": "0.6155849526186813",
+          "x2": "0.0",
+          "normal_col": "0.6768764780834499"
+        },
+        "insight": "Found outlier in x2: value 0.0 is 3.7 standard deviations below the mean"
+      }
+    ],
+    "correlations": [
+      {
+        "column1": "id",
+        "column2": "normal_col",
+        "correlation": 0.112,
+        "relationship": "positive",
+        "strength": "weak",
+        "insight": "Weak positive correlation (0.11) between id and normal_col"
+      },
+      {
+        "column1": "normal_col",
+        "column2": "id",
+        "correlation": 0.112,
+        "relationship": "positive",
+        "strength": "weak",
+        "insight": "Weak positive correlation (0.11) between normal_col and id"
+      },
+      {
+        "column1": "id",
+        "column2": "x2",
+        "correlation": 0.053,
+        "relationship": "positive",
+        "strength": "weak",
+        "insight": "Weak positive correlation (0.05) between id and x2"
+      },
+      {
+        "column1": "x2",
+        "column2": "id",
+        "correlation": 0.053,
+        "relationship": "positive",
+        "strength": "weak",
+        "insight": "Weak positive correlation (0.05) between x2 and id"
+      },
+      {
+        "column1": "x2",
+        "column2": "normal_col",
+        "correlation": -0.006,
+        "relationship": "negative",
+        "strength": "weak",
+        "insight": "Weak negative correlation (-0.01) between x2 and normal_col"
+      }
+    ],
+    "predictions": {
+      "error": "Target column must be specified for predictive insights"
+    },
+    "segments": []
+  },
+  "data_summary": {
+    "rows": 100,
+    "columns": 4,
+    "column_types": {
+      "id": "float64",
+      "x1": "float64",
+      "x2": "float64",
+      "normal_col": "float64"
+    }
+  },
+  "recommended_next_steps": [
+    {
+      "type": "outlier_investigation",
+      "recommendation": "Investigate identified outliers to determine if they represent data quality issues or valuable business exceptions",
+      "priority": "medium"
+    }
+  ]
+}
