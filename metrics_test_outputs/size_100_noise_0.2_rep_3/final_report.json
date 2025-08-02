@@ -1,0 +1,67 @@
+{
+  "status": "success",
+  "analysis_objective": "Analyze test dataset (size=100, noise=0.2, rep=3)",
+  "data_summary": {
+    "original_data": [
+      100,
+      5
+    ],
+    "cleaned_data": [
+      100,
+      5
+    ]
+  },
+  "key_findings": [
+    {
+      "type": "trend",
+      "finding": "x is increasing over time (by 284.19%)"
+    },
+    {
+      "type": "trend",
+      "finding": "y is increasing over time (by 135.29%)"
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.74) between x and y. As x increases, y tends to increase."
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.74) between y and x. As x increases, y tends to increase."
+    },
+    {
+      "type": "prediction",
+      "finding": "x has a strong impact on y (R\u00b2 = 0.55). When x increases, y typically increases."
+    },
+    {
+      "type": "segment",
+      "finding": "category segment 'A' has 28.3% higher x than segment 'C'"
+    },
+    {
+      "type": "segment",
+      "finding": "category segment 'A' has 26.4% higher y than segment 'C'"
+    }
+  ],
+  "recommendations": [
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on x to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on y to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "correlation_investigation",
+      "recommendation": "Investigate potential causal relationship between x and y",
+      "priority": "high"
+    }
+  ],
+  "file_paths": {
+    "original_data": "test_data/metrics_test_100_20250802_035057.csv",
+    "cleaned_data": "test_data/metrics_test_100_20250802_035057_cleaned.csv",
+    "analysis_results": "test_data/metrics_test_100_20250802_035057_cleaned_analysis_results.csv.json",
+    "insights": "test_data/metrics_test_100_20250802_035057_cleaned_insights.json"
+  }
+}

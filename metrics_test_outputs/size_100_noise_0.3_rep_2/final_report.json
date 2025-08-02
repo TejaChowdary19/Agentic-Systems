@@ -1,0 +1,63 @@
+{
+  "status": "success",
+  "analysis_objective": "Analyze test dataset (size=100, noise=0.3, rep=2)",
+  "data_summary": {
+    "original_data": [
+      100,
+      5
+    ],
+    "cleaned_data": [
+      100,
+      5
+    ]
+  },
+  "key_findings": [
+    {
+      "type": "trend",
+      "finding": "x is increasing over time (by 303.14%)"
+    },
+    {
+      "type": "trend",
+      "finding": "y is increasing over time (by 188.44%)"
+    },
+    {
+      "type": "correlation",
+      "finding": "Moderate positive correlation (0.7) between x and y. As x increases, y tends to increase."
+    },
+    {
+      "type": "correlation",
+      "finding": "Moderate positive correlation (0.7) between y and x. As x increases, y tends to increase."
+    },
+    {
+      "type": "prediction",
+      "finding": "x has a moderate impact on y (R\u00b2 = 0.49). When x increases, y typically increases."
+    },
+    {
+      "type": "segment",
+      "finding": "category segment 'A' has 32.9% higher y than segment 'C'"
+    }
+  ],
+  "recommendations": [
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on x to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on y to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "segment_analysis",
+      "recommendation": "Analyze factors contributing to high y in category segment 'A'",
+      "priority": "high"
+    }
+  ],
+  "file_paths": {
+    "original_data": "test_data/metrics_test_100_20250802_035100.csv",
+    "cleaned_data": "test_data/metrics_test_100_20250802_035100_cleaned.csv",
+    "analysis_results": "test_data/metrics_test_100_20250802_035100_cleaned_analysis_results.csv.json",
+    "insights": "test_data/metrics_test_100_20250802_035100_cleaned_insights.json"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "status": "success",
+  "analysis_objective": "Analyze test dataset (size=200, noise=0.1, rep=3)",
+  "data_summary": {
+    "original_data": [
+      200,
+      5
+    ],
+    "cleaned_data": [
+      200,
+      5
+    ]
+  },
+  "key_findings": [
+    {
+      "type": "trend",
+      "finding": "x is increasing over time (by 349.17%)"
+    },
+    {
+      "type": "trend",
+      "finding": "y is increasing over time (by 89.2%)"
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.8) between x and y. As x increases, y tends to increase."
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.8) between y and x. As x increases, y tends to increase."
+    },
+    {
+      "type": "prediction",
+      "finding": "x has a strong impact on y (R\u00b2 = 0.64). When x increases, y typically increases."
+    }
+  ],
+  "recommendations": [
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on x to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on y to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "correlation_investigation",
+      "recommendation": "Investigate potential causal relationship between x and y",
+      "priority": "high"
+    },
+    {
+      "type": "outlier_investigation",
+      "recommendation": "Investigate identified outliers to determine if they represent data quality issues or valuable business exceptions",
+      "priority": "medium"
+    }
+  ],
+  "file_paths": {
+    "original_data": "test_data/metrics_test_200_20250802_035104.csv",
+    "cleaned_data": "test_data/metrics_test_200_20250802_035104_cleaned.csv",
+    "analysis_results": "test_data/metrics_test_200_20250802_035104_cleaned_analysis_results.csv.json",
+    "insights": "test_data/metrics_test_200_20250802_035104_cleaned_insights.json"
+  }
+}
