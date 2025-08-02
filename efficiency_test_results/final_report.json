@@ -1,0 +1,68 @@
+{
+  "status": "success",
+  "analysis_objective": "Efficiency testing",
+  "data_summary": {
+    "original_data": [
+      1000,
+      6
+    ],
+    "cleaned_data": [
+      1000,
+      6
+    ]
+  },
+  "key_findings": [
+    {
+      "type": "trend",
+      "finding": "trend is increasing over time (by 150.97%)"
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.79) between x1 and target. As x1 increases, target tends to increase."
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.79) between target and x1. As x1 increases, target tends to increase."
+    },
+    {
+      "type": "prediction",
+      "finding": "x1 has a strong impact on target (R\u00b2 = 0.62). When x1 increases, target typically increases."
+    },
+    {
+      "type": "prediction",
+      "finding": "x2 has a weak impact on target (R\u00b2 = 0.01). When x2 increases, target typically increases."
+    },
+    {
+      "type": "segment",
+      "finding": "category segment 'A' has 35.3% higher target than segment 'C'"
+    }
+  ],
+  "recommendations": [
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on trend to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "correlation_investigation",
+      "recommendation": "Investigate potential causal relationship between x1 and target",
+      "priority": "high"
+    },
+    {
+      "type": "segment_analysis",
+      "recommendation": "Analyze factors contributing to high target in category segment 'A'",
+      "priority": "high"
+    },
+    {
+      "type": "outlier_investigation",
+      "recommendation": "Investigate identified outliers to determine if they represent data quality issues or valuable business exceptions",
+      "priority": "medium"
+    }
+  ],
+  "file_paths": {
+    "original_data": "test_datasets/test_data_1000.csv",
+    "cleaned_data": "test_datasets/test_data_1000_cleaned.csv",
+    "analysis_results": "test_datasets/test_data_1000_cleaned_analysis_results.csv.json",
+    "insights": "test_datasets/test_data_1000_cleaned_insights.json"
+  }
+}
