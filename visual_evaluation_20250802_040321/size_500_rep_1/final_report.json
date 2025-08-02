@@ -1,0 +1,68 @@
+{
+  "status": "success",
+  "analysis_objective": "Analyze test dataset (size=500, rep=1)",
+  "data_summary": {
+    "original_data": [
+      500,
+      5
+    ],
+    "cleaned_data": [
+      500,
+      5
+    ]
+  },
+  "key_findings": [
+    {
+      "type": "trend",
+      "finding": "x is increasing over time (by 334.47%)"
+    },
+    {
+      "type": "trend",
+      "finding": "y is increasing over time (by 91.91%)"
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.82) between x and y. As x increases, y tends to increase."
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.82) between y and x. As x increases, y tends to increase."
+    },
+    {
+      "type": "prediction",
+      "finding": "x has a strong impact on y (R\u00b2 = 0.67). When x increases, y typically increases."
+    },
+    {
+      "type": "prediction",
+      "finding": "z has a weak impact on y (R\u00b2 = 0.01). When z decreases, y typically decreases."
+    }
+  ],
+  "recommendations": [
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on x to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on y to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "correlation_investigation",
+      "recommendation": "Investigate potential causal relationship between x and y",
+      "priority": "high"
+    },
+    {
+      "type": "outlier_investigation",
+      "recommendation": "Investigate identified outliers to determine if they represent data quality issues or valuable business exceptions",
+      "priority": "medium"
+    }
+  ],
+  "file_paths": {
+    "original_data": "test_data/visual_test_500_20250802_040323.csv",
+    "cleaned_data": "test_data/visual_test_500_20250802_040323_cleaned.csv",
+    "analysis_results": "test_data/visual_test_500_20250802_040323_cleaned_analysis_results.csv.json",
+    "insights": "test_data/visual_test_500_20250802_040323_cleaned_insights.json"
+  }
+}

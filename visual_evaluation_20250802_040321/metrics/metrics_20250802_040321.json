@@ -1,0 +1,89 @@
+{
+  "metrics": {
+    "accuracy": {
+      "correlation_significance": [],
+      "regression_r_squared": [
+        0.6922065465041899,
+        0.009879833832579654
+      ],
+      "outlier_detection": [],
+      "insight_relevance": []
+    },
+    "efficiency": {
+      "total_runtime": [
+        1.104053020477295
+      ],
+      "step_runtimes": {
+        "data_collection": [
+          0.105133056640625
+        ],
+        "data_processing": [
+          0.12915802001953125
+        ],
+        "statistical_analysis": [
+          0.11931180953979492
+        ],
+        "insight_generation": [
+          0.1262669563293457
+        ],
+        "report_generation": [
+          0.105194091796875
+        ]
+      },
+      "memory_usage": [
+        2.546875
+      ],
+      "cpu_usage": [
+        14.91
+      ]
+    },
+    "reliability": {
+      "error_rate": [
+        0
+      ],
+      "error_types": {},
+      "recovery_rate": [],
+      "consistency": []
+    },
+    "system": {
+      "dataset_size": [
+        100
+      ],
+      "feature_count": [
+        5
+      ],
+      "insight_count": [
+        8
+      ],
+      "recommendation_count": [
+        4
+      ]
+    }
+  },
+  "summary": {
+    "accuracy": {
+      "avg_r_squared": 0.35104319016838476
+    },
+    "efficiency": {
+      "avg_runtime": 1.104053020477295,
+      "avg_data_collection_runtime": 0.105133056640625,
+      "avg_data_processing_runtime": 0.12915802001953125,
+      "avg_statistical_analysis_runtime": 0.11931180953979492,
+      "avg_insight_generation_runtime": 0.1262669563293457,
+      "avg_report_generation_runtime": 0.105194091796875,
+      "avg_memory_usage": 2.546875,
+      "avg_cpu_usage": 14.91
+    },
+    "reliability": {
+      "error_rate": 0.0,
+      "error_types": {}
+    },
+    "system": {
+      "avg_dataset_size": 100.0,
+      "avg_feature_count": 5.0,
+      "avg_insight_count": 8.0,
+      "avg_recommendation_count": 4.0
+    }
+  },
+  "timestamp": "2025-08-02T04:03:22.854604"
+}

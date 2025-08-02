@@ -1,0 +1,305 @@
+{
+  "metrics": {
+    "overall_usability_score": 30.374999999999996,
+    "insight_clarity": 0.5625,
+    "insight_actionability": 0.25,
+    "recommendation_clarity": 0.25,
+    "recommendation_actionability": 0.05,
+    "total_insights": 8,
+    "total_recommendations": 5
+  },
+  "best_insights": [
+    {
+      "insight": "product_category segment 'Toys' has 378.4% higher profit_margin than segment 'Books'",
+      "clarity": {
+        "clarity_score": 1.0,
+        "has_metric": true,
+        "has_direction": true,
+        "has_magnitude": true,
+        "has_segment": true
+      },
+      "actionability": {
+        "actionability_score": 0.5,
+        "has_actionable_keyword": false,
+        "has_comparison": true,
+        "has_specific_entity": true,
+        "has_causal_language": false
+      },
+      "overall_score": 0.75
+    },
+    {
+      "insight": "product_category segment 'Toys' has 269.3% higher profit than segment 'Books'",
+      "clarity": {
+        "clarity_score": 1.0,
+        "has_metric": true,
+        "has_direction": true,
+        "has_magnitude": true,
+        "has_segment": true
+      },
+      "actionability": {
+        "actionability_score": 0.5,
+        "has_actionable_keyword": false,
+        "has_comparison": true,
+        "has_specific_entity": true,
+        "has_causal_language": false
+      },
+      "overall_score": 0.75
+    },
+    {
+      "insight": "repeat_customers has a moderate impact on daily_sales (R\u00b2 = 0.29). When repeat_customers increases, daily_sales typically increases.",
+      "clarity": {
+        "clarity_score": 0.5,
+        "has_metric": true,
+        "has_direction": true,
+        "has_magnitude": false,
+        "has_segment": false
+      },
+      "actionability": {
+        "actionability_score": 0.5,
+        "has_actionable_keyword": true,
+        "has_comparison": false,
+        "has_specific_entity": false,
+        "has_causal_language": true
+      },
+      "overall_score": 0.5
+    }
+  ],
+  "all_insights": [
+    {
+      "insight": "daily_sales is increasing over time (by 33.22%)",
+      "clarity": {
+        "clarity_score": 0.5,
+        "has_metric": true,
+        "has_direction": false,
+        "has_magnitude": true,
+        "has_segment": false
+      },
+      "actionability": {
+        "actionability_score": 0.0,
+        "has_actionable_keyword": false,
+        "has_comparison": false,
+        "has_specific_entity": false,
+        "has_causal_language": false
+      },
+      "overall_score": 0.25
+    },
+    {
+      "insight": "marketing_spend is increasing over time (by 125.43%)",
+      "clarity": {
+        "clarity_score": 0.5,
+        "has_metric": true,
+        "has_direction": false,
+        "has_magnitude": true,
+        "has_segment": false
+      },
+      "actionability": {
+        "actionability_score": 0.0,
+        "has_actionable_keyword": false,
+        "has_comparison": false,
+        "has_specific_entity": false,
+        "has_causal_language": false
+      },
+      "overall_score": 0.25
+    },
+    {
+      "insight": "Strong positive correlation (0.97) between new_customers and repeat_customers",
+      "clarity": {
+        "clarity_score": 0.25,
+        "has_metric": true,
+        "has_direction": false,
+        "has_magnitude": false,
+        "has_segment": false
+      },
+      "actionability": {
+        "actionability_score": 0.0,
+        "has_actionable_keyword": false,
+        "has_comparison": false,
+        "has_specific_entity": false,
+        "has_causal_language": false
+      },
+      "overall_score": 0.125
+    },
+    {
+      "insight": "Strong positive correlation (0.97) between repeat_customers and new_customers",
+      "clarity": {
+        "clarity_score": 0.25,
+        "has_metric": true,
+        "has_direction": false,
+        "has_magnitude": false,
+        "has_segment": false
+      },
+      "actionability": {
+        "actionability_score": 0.0,
+        "has_actionable_keyword": false,
+        "has_comparison": false,
+        "has_specific_entity": false,
+        "has_causal_language": false
+      },
+      "overall_score": 0.125
+    },
+    {
+      "insight": "repeat_customers has a moderate impact on daily_sales (R\u00b2 = 0.29). When repeat_customers increases, daily_sales typically increases.",
+      "clarity": {
+        "clarity_score": 0.5,
+        "has_metric": true,
+        "has_direction": true,
+        "has_magnitude": false,
+        "has_segment": false
+      },
+      "actionability": {
+        "actionability_score": 0.5,
+        "has_actionable_keyword": true,
+        "has_comparison": false,
+        "has_specific_entity": false,
+        "has_causal_language": true
+      },
+      "overall_score": 0.5
+    },
+    {
+      "insight": "new_customers has a moderate impact on daily_sales (R\u00b2 = 0.27). When new_customers increases, daily_sales typically increases.",
+      "clarity": {
+        "clarity_score": 0.5,
+        "has_metric": true,
+        "has_direction": true,
+        "has_magnitude": false,
+        "has_segment": false
+      },
+      "actionability": {
+        "actionability_score": 0.5,
+        "has_actionable_keyword": true,
+        "has_comparison": false,
+        "has_specific_entity": false,
+        "has_causal_language": true
+      },
+      "overall_score": 0.5
+    },
+    {
+      "insight": "product_category segment 'Toys' has 378.4% higher profit_margin than segment 'Books'",
+      "clarity": {
+        "clarity_score": 1.0,
+        "has_metric": true,
+        "has_direction": true,
+        "has_magnitude": true,
+        "has_segment": true
+      },
+      "actionability": {
+        "actionability_score": 0.5,
+        "has_actionable_keyword": false,
+        "has_comparison": true,
+        "has_specific_entity": true,
+        "has_causal_language": false
+      },
+      "overall_score": 0.75
+    },
+    {
+      "insight": "product_category segment 'Toys' has 269.3% higher profit than segment 'Books'",
+      "clarity": {
+        "clarity_score": 1.0,
+        "has_metric": true,
+        "has_direction": true,
+        "has_magnitude": true,
+        "has_segment": true
+      },
+      "actionability": {
+        "actionability_score": 0.5,
+        "has_actionable_keyword": false,
+        "has_comparison": true,
+        "has_specific_entity": true,
+        "has_causal_language": false
+      },
+      "overall_score": 0.75
+    }
+  ],
+  "recommendation_evaluations": [
+    {
+      "recommendation": "Conduct deeper time-series analysis on daily_sales to understand factors driving the increasing trend",
+      "clarity": {
+        "clarity_score": 0.25,
+        "has_metric": true,
+        "has_direction": false,
+        "has_magnitude": false,
+        "has_segment": false
+      },
+      "actionability": {
+        "actionability_score": 0.0,
+        "has_actionable_keyword": false,
+        "has_comparison": false,
+        "has_specific_entity": false,
+        "has_causal_language": false
+      },
+      "overall_score": 0.125
+    },
+    {
+      "recommendation": "Conduct deeper time-series analysis on marketing_spend to understand factors driving the increasing trend",
+      "clarity": {
+        "clarity_score": 0.25,
+        "has_metric": true,
+        "has_direction": false,
+        "has_magnitude": false,
+        "has_segment": false
+      },
+      "actionability": {
+        "actionability_score": 0.0,
+        "has_actionable_keyword": false,
+        "has_comparison": false,
+        "has_specific_entity": false,
+        "has_causal_language": false
+      },
+      "overall_score": 0.125
+    },
+    {
+      "recommendation": "Investigate potential causal relationship between new_customers and repeat_customers",
+      "clarity": {
+        "clarity_score": 0.25,
+        "has_metric": true,
+        "has_direction": false,
+        "has_magnitude": false,
+        "has_segment": false
+      },
+      "actionability": {
+        "actionability_score": 0.0,
+        "has_actionable_keyword": false,
+        "has_comparison": false,
+        "has_specific_entity": false,
+        "has_causal_language": false
+      },
+      "overall_score": 0.125
+    },
+    {
+      "recommendation": "Analyze factors contributing to high profit_margin in product_category segment 'Toys'",
+      "clarity": {
+        "clarity_score": 0.5,
+        "has_metric": true,
+        "has_direction": false,
+        "has_magnitude": false,
+        "has_segment": true
+      },
+      "actionability": {
+        "actionability_score": 0.25,
+        "has_actionable_keyword": false,
+        "has_comparison": false,
+        "has_specific_entity": true,
+        "has_causal_language": false
+      },
+      "overall_score": 0.375
+    },
+    {
+      "recommendation": "Investigate identified outliers to determine if they represent data quality issues or valuable business exceptions",
+      "clarity": {
+        "clarity_score": 0.0,
+        "has_metric": false,
+        "has_direction": false,
+        "has_magnitude": false,
+        "has_segment": false
+      },
+      "actionability": {
+        "actionability_score": 0.0,
+        "has_actionable_keyword": false,
+        "has_comparison": false,
+        "has_specific_entity": false,
+        "has_causal_language": false
+      },
+      "overall_score": 0.0
+    }
+  ]
+}

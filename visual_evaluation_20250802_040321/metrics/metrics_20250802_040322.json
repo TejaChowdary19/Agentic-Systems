@@ -1,0 +1,89 @@
+{
+  "metrics": {
+    "accuracy": {
+      "correlation_significance": [],
+      "regression_r_squared": [
+        0.7177441029333185,
+        0.010928322565944597
+      ],
+      "outlier_detection": [],
+      "insight_relevance": []
+    },
+    "efficiency": {
+      "total_runtime": [
+        1.1080262660980225
+      ],
+      "step_runtimes": {
+        "data_collection": [
+          0.11429595947265625
+        ],
+        "data_processing": [
+          0.11908626556396484
+        ],
+        "statistical_analysis": [
+          0.12201595306396484
+        ],
+        "insight_generation": [
+          0.11933493614196777
+        ],
+        "report_generation": [
+          0.10708403587341309
+        ]
+      },
+      "memory_usage": [
+        0.296875
+      ],
+      "cpu_usage": [
+        15.63
+      ]
+    },
+    "reliability": {
+      "error_rate": [
+        0
+      ],
+      "error_types": {},
+      "recovery_rate": [],
+      "consistency": []
+    },
+    "system": {
+      "dataset_size": [
+        100
+      ],
+      "feature_count": [
+        5
+      ],
+      "insight_count": [
+        8
+      ],
+      "recommendation_count": [
+        3
+      ]
+    }
+  },
+  "summary": {
+    "accuracy": {
+      "avg_r_squared": 0.3643362127496315
+    },
+    "efficiency": {
+      "avg_runtime": 1.1080262660980225,
+      "avg_data_collection_runtime": 0.11429595947265625,
+      "avg_data_processing_runtime": 0.11908626556396484,
+      "avg_statistical_analysis_runtime": 0.12201595306396484,
+      "avg_insight_generation_runtime": 0.11933493614196777,
+      "avg_report_generation_runtime": 0.10708403587341309,
+      "avg_memory_usage": 0.296875,
+      "avg_cpu_usage": 15.63
+    },
+    "reliability": {
+      "error_rate": 0.0,
+      "error_types": {}
+    },
+    "system": {
+      "avg_dataset_size": 100.0,
+      "avg_feature_count": 5.0,
+      "avg_insight_count": 8.0,
+      "avg_recommendation_count": 3.0
+    }
+  },
+  "timestamp": "2025-08-02T04:03:23.972981"
+}

@@ -1,0 +1,63 @@
+{
+  "status": "success",
+  "analysis_objective": "Analyze test dataset (size=100, rep=2)",
+  "data_summary": {
+    "original_data": [
+      100,
+      5
+    ],
+    "cleaned_data": [
+      100,
+      5
+    ]
+  },
+  "key_findings": [
+    {
+      "type": "trend",
+      "finding": "x is increasing over time (by 344.62%)"
+    },
+    {
+      "type": "trend",
+      "finding": "y is increasing over time (by 98.5%)"
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.85) between x and y. As x increases, y tends to increase."
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.85) between y and x. As x increases, y tends to increase."
+    },
+    {
+      "type": "prediction",
+      "finding": "x has a strong impact on y (R\u00b2 = 0.72). When x increases, y typically increases."
+    },
+    {
+      "type": "segment",
+      "finding": "category segment 'C' has 21.3% higher z than segment 'A'"
+    }
+  ],
+  "recommendations": [
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on x to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on y to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "correlation_investigation",
+      "recommendation": "Investigate potential causal relationship between x and y",
+      "priority": "high"
+    }
+  ],
+  "file_paths": {
+    "original_data": "test_data/visual_test_100_20250802_040322.csv",
+    "cleaned_data": "test_data/visual_test_100_20250802_040322_cleaned.csv",
+    "analysis_results": "test_data/visual_test_100_20250802_040322_cleaned_analysis_results.csv.json",
+    "insights": "test_data/visual_test_100_20250802_040322_cleaned_insights.json"
+  }
+}

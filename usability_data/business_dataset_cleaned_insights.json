@@ -1,0 +1,262 @@
+{
+  "status": "success",
+  "business_context": "Retail business analytics",
+  "insights": {
+    "trends": [
+      {
+        "column": "daily_sales",
+        "date_column": "date",
+        "direction": "increasing",
+        "percent_change": 33.22,
+        "start_value": 0.31,
+        "end_value": 0.41,
+        "insight": "daily_sales is increasing over time (by 33.22%)"
+      },
+      {
+        "column": "marketing_spend",
+        "date_column": "date",
+        "direction": "increasing",
+        "percent_change": 125.43,
+        "start_value": 0.32,
+        "end_value": 0.72,
+        "insight": "marketing_spend is increasing over time (by 125.43%)"
+      },
+      {
+        "column": "new_customers",
+        "date_column": "date",
+        "direction": "increasing",
+        "percent_change": 54.08,
+        "start_value": 0.38,
+        "end_value": 0.58,
+        "insight": "new_customers is increasing over time (by 54.08%)"
+      },
+      {
+        "column": "repeat_customers",
+        "date_column": "date",
+        "direction": "increasing",
+        "percent_change": 61.49,
+        "start_value": 0.36,
+        "end_value": 0.58,
+        "insight": "repeat_customers is increasing over time (by 61.49%)"
+      },
+      {
+        "column": "profit",
+        "date_column": "date",
+        "direction": "increasing",
+        "percent_change": 24.87,
+        "start_value": 0.38,
+        "end_value": 0.48,
+        "insight": "profit is increasing over time (by 24.87%)"
+      }
+    ],
+    "outliers": [
+      {
+        "column": "daily_sales",
+        "value": 0.9687928792084306,
+        "std_deviations": 3.0,
+        "direction": "above",
+        "context": {
+          "date": "2025-07-24 03:16:51.546910",
+          "daily_sales": "0.9687928792084306",
+          "marketing_spend": "0.8125311426289914",
+          "new_customers": "0.6599743704780717",
+          "repeat_customers": "0.7146813172988635",
+          "product_category": "Electronics",
+          "sales_channel": "Online",
+          "profit_margin": "0.3802816901408453",
+          "profit": "0.6910327762657255",
+          "customer_satisfaction": "0.4312729975757259"
+        },
+        "insight": "Found outlier in daily_sales: value 0.97 is 3.0 standard deviations above the mean"
+      },
+      {
+        "column": "daily_sales",
+        "value": 1.0,
+        "std_deviations": 3.2,
+        "direction": "above",
+        "context": {
+          "date": "2025-03-29 03:16:51.546910",
+          "daily_sales": "1.0",
+          "marketing_spend": "0.5725261254721818",
+          "new_customers": "0.6475521825959508",
+          "repeat_customers": "0.749160255424085",
+          "product_category": "Electronics",
+          "sales_channel": "Online",
+          "profit_margin": "0.3802816901408453",
+          "profit": "0.7099678292546724",
+          "customer_satisfaction": "0.1410055136898182"
+        },
+        "insight": "Found outlier in daily_sales: value 1.0 is 3.2 standard deviations above the mean"
+      }
+    ],
+    "correlations": [
+      {
+        "column1": "new_customers",
+        "column2": "repeat_customers",
+        "correlation": 0.971,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.97) between new_customers and repeat_customers"
+      },
+      {
+        "column1": "repeat_customers",
+        "column2": "new_customers",
+        "correlation": 0.971,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.97) between repeat_customers and new_customers"
+      },
+      {
+        "column1": "profit",
+        "column2": "profit_margin",
+        "correlation": 0.753,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.75) between profit and profit_margin"
+      },
+      {
+        "column1": "profit_margin",
+        "column2": "profit",
+        "correlation": 0.753,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.75) between profit_margin and profit"
+      },
+      {
+        "column1": "repeat_customers",
+        "column2": "daily_sales",
+        "correlation": 0.538,
+        "relationship": "positive",
+        "strength": "moderate",
+        "insight": "Moderate positive correlation (0.54) between repeat_customers and daily_sales. As repeat_customers increases, daily_sales tends to increase."
+      }
+    ],
+    "predictions": {
+      "target": "daily_sales",
+      "insights": [
+        {
+          "feature": "repeat_customers",
+          "r_squared": 0.28926997383246833,
+          "p_value": 7.848890521503594e-39,
+          "direction": "positive",
+          "impact": "moderate",
+          "insight": "repeat_customers has a moderate impact on daily_sales (R\u00b2 = 0.29). When repeat_customers increases, daily_sales typically increases.",
+          "evidence": "When repeat_customers is above average, daily_sales is on average 70.4% higher"
+        },
+        {
+          "feature": "new_customers",
+          "r_squared": 0.26737859790878943,
+          "p_value": 1.5567415127777088e-35,
+          "direction": "positive",
+          "impact": "moderate",
+          "insight": "new_customers has a moderate impact on daily_sales (R\u00b2 = 0.27). When new_customers increases, daily_sales typically increases.",
+          "evidence": "When new_customers is above average, daily_sales is on average 68.5% higher"
+        },
+        {
+          "feature": "profit",
+          "r_squared": 0.22220774397265733,
+          "p_value": 5.0324420579977e-29,
+          "direction": "positive",
+          "impact": "moderate",
+          "insight": "profit has a moderate impact on daily_sales (R\u00b2 = 0.22). When profit increases, daily_sales typically increases.",
+          "evidence": "When profit is above average, daily_sales is on average 52.5% higher"
+        }
+      ]
+    },
+    "segments": [
+      {
+        "segment_column": "product_category",
+        "value_column": "profit_margin",
+        "top_segment": "Toys",
+        "bottom_segment": "Books",
+        "top_value": 0.8720435822482063,
+        "bottom_value": 0.1823013553016212,
+        "percent_difference": 378.35,
+        "insight": "product_category segment 'Toys' has 378.4% higher profit_margin than segment 'Books'"
+      },
+      {
+        "segment_column": "product_category",
+        "value_column": "profit",
+        "top_segment": "Toys",
+        "bottom_segment": "Books",
+        "top_value": 0.5827570666700634,
+        "bottom_value": 0.1578131013377016,
+        "percent_difference": 269.27,
+        "insight": "product_category segment 'Toys' has 269.3% higher profit than segment 'Books'"
+      },
+      {
+        "segment_column": "sales_channel",
+        "value_column": "profit",
+        "top_segment": "Online",
+        "bottom_segment": "Partner",
+        "top_value": 0.5169294584228419,
+        "bottom_value": 0.20873902323297697,
+        "percent_difference": 147.64,
+        "insight": "sales_channel segment 'Online' has 147.6% higher profit than segment 'Partner'"
+      },
+      {
+        "segment_column": "product_category",
+        "value_column": "daily_sales",
+        "top_segment": "Electronics",
+        "bottom_segment": "Toys",
+        "top_value": 0.6409786922733506,
+        "bottom_value": 0.2825227562523835,
+        "percent_difference": 126.88,
+        "insight": "product_category segment 'Electronics' has 126.9% higher daily_sales than segment 'Toys'"
+      },
+      {
+        "segment_column": "sales_channel",
+        "value_column": "profit_margin",
+        "top_segment": "Online",
+        "bottom_segment": "Partner",
+        "top_value": 0.612938648842206,
+        "bottom_value": 0.29577464788732394,
+        "percent_difference": 107.23,
+        "insight": "sales_channel segment 'Online' has 107.2% higher profit_margin than segment 'Partner'"
+      }
+    ]
+  },
+  "data_summary": {
+    "rows": 500,
+    "columns": 10,
+    "column_types": {
+      "date": "object",
+      "daily_sales": "float64",
+      "marketing_spend": "float64",
+      "new_customers": "float64",
+      "repeat_customers": "float64",
+      "product_category": "object",
+      "sales_channel": "object",
+      "profit_margin": "float64",
+      "profit": "float64",
+      "customer_satisfaction": "float64"
+    }
+  },
+  "recommended_next_steps": [
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on daily_sales to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on marketing_spend to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "correlation_investigation",
+      "recommendation": "Investigate potential causal relationship between new_customers and repeat_customers",
+      "priority": "high"
+    },
+    {
+      "type": "segment_analysis",
+      "recommendation": "Analyze factors contributing to high profit_margin in product_category segment 'Toys'",
+      "priority": "high"
+    },
+    {
+      "type": "outlier_investigation",
+      "recommendation": "Investigate identified outliers to determine if they represent data quality issues or valuable business exceptions",
+      "priority": "medium"
+    }
+  ]
+}

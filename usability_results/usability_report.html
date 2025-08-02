@@ -1,0 +1,177 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Data Analysis System Usability Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2, h3 { color: #2c3e50; }
+            .summary { background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+            .metric { margin-bottom: 10px; }
+            .metric-value { font-weight: bold; }
+            .insights { margin-bottom: 30px; }
+            .insight { background-color: #f8f9fa; padding: 10px; margin-bottom: 10px; border-radius: 5px; }
+            .score-high { color: #28a745; }
+            .score-medium { color: #fd7e14; }
+            .score-low { color: #dc3545; }
+            .recommendation { background-color: #e9f7ef; padding: 10px; margin-bottom: 10px; border-radius: 5px; }
+            progress { width: 100%; height: 20px; }
+        </style>
+    </head>
+    <body>
+        <h1>Data Analysis System Usability Report</h1>
+        
+        <div class="summary">
+            <h2>Summary</h2>
+            
+            <div class="metric">
+                <div>Overall Usability Score: 
+                    <span class="metric-value score-low">
+                        30.4/100
+                    </span>
+                </div>
+                <progress value="30.374999999999996" max="100"></progress>
+            </div>
+            
+            <div class="metric">
+                <div>Insight Clarity: 
+                    <span class="metric-value score-medium">
+                        0.56
+                    </span>
+                </div>
+                <progress value="56.25" max="100"></progress>
+            </div>
+            
+            <div class="metric">
+                <div>Insight Actionability: 
+                    <span class="metric-value score-low">
+                        0.25
+                    </span>
+                </div>
+                <progress value="25.0" max="100"></progress>
+            </div>
+            
+            <div class="metric">
+                <div>Recommendation Clarity: 
+                    <span class="metric-value score-low">
+                        0.25
+                    </span>
+                </div>
+                <progress value="25.0" max="100"></progress>
+            </div>
+            
+            <div class="metric">
+                <div>Recommendation Actionability: 
+                    <span class="metric-value score-low">
+                        0.05
+                    </span>
+                </div>
+                <progress value="5.0" max="100"></progress>
+            </div>
+            
+            <p>Total Insights: 8</p>
+            <p>Total Recommendations: 5</p>
+        </div>
+        
+        <div class="insights">
+            <h2>Top Insights</h2>
+    
+            <div class="insight">
+                <h3>Insight 1 <span class="score-high">(0.75)</span></h3>
+                <p>product_category segment 'Toys' has 378.4% higher profit_margin than segment 'Books'</p>
+                <div>Clarity: 1.00</div>
+                <div>Actionability: 0.50</div>
+                <div>Components:</div>
+                <ul>
+                    <li>Has metric: ✅</li>
+                    <li>Has direction: ✅</li>
+                    <li>Has magnitude: ✅</li>
+                    <li>Has segment: ✅</li>
+                    <li>Has actionable keyword: ❌</li>
+                    <li>Has comparison: ✅</li>
+                    <li>Has specific entity: ✅</li>
+                    <li>Has causal language: ❌</li>
+                </ul>
+            </div>
+        
+            <div class="insight">
+                <h3>Insight 2 <span class="score-high">(0.75)</span></h3>
+                <p>product_category segment 'Toys' has 269.3% higher profit than segment 'Books'</p>
+                <div>Clarity: 1.00</div>
+                <div>Actionability: 0.50</div>
+                <div>Components:</div>
+                <ul>
+                    <li>Has metric: ✅</li>
+                    <li>Has direction: ✅</li>
+                    <li>Has magnitude: ✅</li>
+                    <li>Has segment: ✅</li>
+                    <li>Has actionable keyword: ❌</li>
+                    <li>Has comparison: ✅</li>
+                    <li>Has specific entity: ✅</li>
+                    <li>Has causal language: ❌</li>
+                </ul>
+            </div>
+        
+            <div class="insight">
+                <h3>Insight 3 <span class="score-medium">(0.50)</span></h3>
+                <p>repeat_customers has a moderate impact on daily_sales (R² = 0.29). When repeat_customers increases, daily_sales typically increases.</p>
+                <div>Clarity: 0.50</div>
+                <div>Actionability: 0.50</div>
+                <div>Components:</div>
+                <ul>
+                    <li>Has metric: ✅</li>
+                    <li>Has direction: ✅</li>
+                    <li>Has magnitude: ❌</li>
+                    <li>Has segment: ❌</li>
+                    <li>Has actionable keyword: ✅</li>
+                    <li>Has comparison: ❌</li>
+                    <li>Has specific entity: ❌</li>
+                    <li>Has causal language: ✅</li>
+                </ul>
+            </div>
+        
+        <h2>Top Recommendations</h2>
+    
+            <div class="recommendation">
+                <h3>Recommendation 1 <span class="score-low">(0.38)</span></h3>
+                <p>Analyze factors contributing to high profit_margin in product_category segment 'Toys'</p>
+                <div>Clarity: 0.50</div>
+                <div>Actionability: 0.25</div>
+            </div>
+        
+            <div class="recommendation">
+                <h3>Recommendation 2 <span class="score-low">(0.12)</span></h3>
+                <p>Conduct deeper time-series analysis on daily_sales to understand factors driving the increasing trend</p>
+                <div>Clarity: 0.25</div>
+                <div>Actionability: 0.00</div>
+            </div>
+        
+            <div class="recommendation">
+                <h3>Recommendation 3 <span class="score-low">(0.12)</span></h3>
+                <p>Conduct deeper time-series analysis on marketing_spend to understand factors driving the increasing trend</p>
+                <div>Clarity: 0.25</div>
+                <div>Actionability: 0.00</div>
+            </div>
+        
+        </div>
+        
+        <div>
+            <h2>Improvement Suggestions</h2>
+            <ul>
+    
+                <li>Improve insight clarity by ensuring insights include specific metrics, clear directions of change, and quantified magnitudes</li>
+        
+                <li>Enhance insight actionability by including more specific comparisons, causal relationships, and actionable keywords</li>
+        
+                <li>Make recommendations more clear by specifying which metrics they will affect and by how much</li>
+        
+                <li>Improve recommendation actionability by making them more specific and targeted to particular segments or processes</li>
+        
+                <li>Consider adding more segment-specific insights to make findings more targeted</li>
+                <li>Include more causal language to explain why patterns exist, not just what they are</li>
+                <li>Add comparative benchmarks where possible to provide context for insights</li>
+            </ul>
+        </div>
+    </body>
+    </html>
+    
