@@ -1,0 +1,936 @@
+{
+  "test_configuration": {
+    "dataset_sizes": [
+      100,
+      200,
+      300
+    ],
+    "noise_levels": [
+      0.1,
+      0.2,
+      0.3
+    ],
+    "repetitions": 3,
+    "timestamp": "2025-08-02T03:51:22.563087"
+  },
+  "results": [
+    {
+      "dataset_size": 100,
+      "noise_level": 0.1,
+      "repetition": 1,
+      "status": "success",
+      "runtime": 1.1184699535369873,
+      "output_dir": "metrics_test_outputs/size_100_noise_0.1_rep_1",
+      "data_path": "test_data/metrics_test_100_20250802_035052.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.3097279658362228
+        },
+        "efficiency": {
+          "avg_runtime": 1.114914894104004,
+          "avg_data_collection_runtime": 0.10920977592468262,
+          "avg_data_processing_runtime": 0.12657690048217773,
+          "avg_statistical_analysis_runtime": 0.12620091438293457,
+          "avg_insight_generation_runtime": 0.1247248649597168,
+          "avg_report_generation_runtime": 0.10552406311035156,
+          "avg_memory_usage": 2.328125,
+          "avg_cpu_usage": 12.129999999999999
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 100.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 9.0,
+          "avg_recommendation_count": 3.0
+        }
+      }
+    },
+    {
+      "dataset_size": 100,
+      "noise_level": 0.1,
+      "repetition": 2,
+      "status": "success",
+      "runtime": 1.102553129196167,
+      "output_dir": "metrics_test_outputs/size_100_noise_0.1_rep_2",
+      "data_path": "test_data/metrics_test_100_20250802_035053.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.27730745121232464
+        },
+        "efficiency": {
+          "avg_runtime": 1.0989151000976562,
+          "avg_data_collection_runtime": 0.11008191108703613,
+          "avg_data_processing_runtime": 0.11632013320922852,
+          "avg_statistical_analysis_runtime": 0.11870408058166504,
+          "avg_insight_generation_runtime": 0.12440991401672363,
+          "avg_report_generation_runtime": 0.10689616203308105,
+          "avg_memory_usage": 0.5625,
+          "avg_cpu_usage": 17.96
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 100.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 9.0,
+          "avg_recommendation_count": 4.0
+        }
+      }
+    },
+    {
+      "dataset_size": 100,
+      "noise_level": 0.1,
+      "repetition": 3,
+      "status": "success",
+      "runtime": 1.1037461757659912,
+      "output_dir": "metrics_test_outputs/size_100_noise_0.1_rep_3",
+      "data_path": "test_data/metrics_test_100_20250802_035054.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.3283293187336406
+        },
+        "efficiency": {
+          "avg_runtime": 1.0995922088623047,
+          "avg_data_collection_runtime": 0.10945677757263184,
+          "avg_data_processing_runtime": 0.12646126747131348,
+          "avg_statistical_analysis_runtime": 0.11398911476135254,
+          "avg_insight_generation_runtime": 0.12225818634033203,
+          "avg_report_generation_runtime": 0.10441780090332031,
+          "avg_memory_usage": 0.34375,
+          "avg_cpu_usage": 16.440000000000005
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 100.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 7.0,
+          "avg_recommendation_count": 3.0
+        }
+      }
+    },
+    {
+      "dataset_size": 100,
+      "noise_level": 0.2,
+      "repetition": 1,
+      "status": "success",
+      "runtime": 1.1012589931488037,
+      "output_dir": "metrics_test_outputs/size_100_noise_0.2_rep_1",
+      "data_path": "test_data/metrics_test_100_20250802_035055.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.3081371894520505
+        },
+        "efficiency": {
+          "avg_runtime": 1.0979199409484863,
+          "avg_data_collection_runtime": 0.11228704452514648,
+          "avg_data_processing_runtime": 0.12178468704223633,
+          "avg_statistical_analysis_runtime": 0.11228108406066895,
+          "avg_insight_generation_runtime": 0.12475228309631348,
+          "avg_report_generation_runtime": 0.10362887382507324,
+          "avg_memory_usage": 0.171875,
+          "avg_cpu_usage": 19.409999999999997
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 100.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 9.0,
+          "avg_recommendation_count": 4.0
+        }
+      }
+    },
+    {
+      "dataset_size": 100,
+      "noise_level": 0.2,
+      "repetition": 2,
+      "status": "success",
+      "runtime": 1.1118271350860596,
+      "output_dir": "metrics_test_outputs/size_100_noise_0.2_rep_2",
+      "data_path": "test_data/metrics_test_100_20250802_035056.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.28400300049505467
+        },
+        "efficiency": {
+          "avg_runtime": 1.108168125152588,
+          "avg_data_collection_runtime": 0.10936117172241211,
+          "avg_data_processing_runtime": 0.12782001495361328,
+          "avg_statistical_analysis_runtime": 0.10970902442932129,
+          "avg_insight_generation_runtime": 0.12639999389648438,
+          "avg_report_generation_runtime": 0.10731291770935059,
+          "avg_memory_usage": 0.203125,
+          "avg_cpu_usage": 13.239999999999998
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 100.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 9.0,
+          "avg_recommendation_count": 5.0
+        }
+      }
+    },
+    {
+      "dataset_size": 100,
+      "noise_level": 0.2,
+      "repetition": 3,
+      "status": "success",
+      "runtime": 1.1062958240509033,
+      "output_dir": "metrics_test_outputs/size_100_noise_0.2_rep_3",
+      "data_path": "test_data/metrics_test_100_20250802_035057.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.28427432035452393
+        },
+        "efficiency": {
+          "avg_runtime": 1.1026320457458496,
+          "avg_data_collection_runtime": 0.10969924926757812,
+          "avg_data_processing_runtime": 0.12039899826049805,
+          "avg_statistical_analysis_runtime": 0.11678814888000488,
+          "avg_insight_generation_runtime": 0.12154722213745117,
+          "avg_report_generation_runtime": 0.10694098472595215,
+          "avg_memory_usage": 0.03125,
+          "avg_cpu_usage": 13.4
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 100.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 10.0,
+          "avg_recommendation_count": 3.0
+        }
+      }
+    },
+    {
+      "dataset_size": 100,
+      "noise_level": 0.3,
+      "repetition": 1,
+      "status": "success",
+      "runtime": 1.1099352836608887,
+      "output_dir": "metrics_test_outputs/size_100_noise_0.3_rep_1",
+      "data_path": "test_data/metrics_test_100_20250802_035058.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.32258351570324
+        },
+        "efficiency": {
+          "avg_runtime": 1.1055190563201904,
+          "avg_data_collection_runtime": 0.10901212692260742,
+          "avg_data_processing_runtime": 0.12274408340454102,
+          "avg_statistical_analysis_runtime": 0.11885690689086914,
+          "avg_insight_generation_runtime": 0.12219595909118652,
+          "avg_report_generation_runtime": 0.10458111763000488,
+          "avg_memory_usage": 0.046875,
+          "avg_cpu_usage": 13.13
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 100.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 10.0,
+          "avg_recommendation_count": 4.0
+        }
+      }
+    },
+    {
+      "dataset_size": 100,
+      "noise_level": 0.3,
+      "repetition": 2,
+      "status": "success",
+      "runtime": 1.1056771278381348,
+      "output_dir": "metrics_test_outputs/size_100_noise_0.3_rep_2",
+      "data_path": "test_data/metrics_test_100_20250802_035100.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.25036416984111526
+        },
+        "efficiency": {
+          "avg_runtime": 1.10123610496521,
+          "avg_data_collection_runtime": 0.11104488372802734,
+          "avg_data_processing_runtime": 0.1215660572052002,
+          "avg_statistical_analysis_runtime": 0.11384010314941406,
+          "avg_insight_generation_runtime": 0.1249690055847168,
+          "avg_report_generation_runtime": 0.10529518127441406,
+          "avg_memory_usage": 0.1875,
+          "avg_cpu_usage": 15.25
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 100.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 8.0,
+          "avg_recommendation_count": 3.0
+        }
+      }
+    },
+    {
+      "dataset_size": 100,
+      "noise_level": 0.3,
+      "repetition": 3,
+      "status": "success",
+      "runtime": 1.1177821159362793,
+      "output_dir": "metrics_test_outputs/size_100_noise_0.3_rep_3",
+      "data_path": "test_data/metrics_test_100_20250802_035101.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.3256280989937496
+        },
+        "efficiency": {
+          "avg_runtime": 1.115751028060913,
+          "avg_data_collection_runtime": 0.11248111724853516,
+          "avg_data_processing_runtime": 0.1225430965423584,
+          "avg_statistical_analysis_runtime": 0.12255716323852539,
+          "avg_insight_generation_runtime": 0.12841176986694336,
+          "avg_report_generation_runtime": 0.1073920726776123,
+          "avg_memory_usage": 0.046875,
+          "avg_cpu_usage": 15.489999999999998
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 100.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 9.0,
+          "avg_recommendation_count": 4.0
+        }
+      }
+    },
+    {
+      "dataset_size": 200,
+      "noise_level": 0.1,
+      "repetition": 1,
+      "status": "success",
+      "runtime": 1.1121337413787842,
+      "output_dir": "metrics_test_outputs/size_200_noise_0.1_rep_1",
+      "data_path": "test_data/metrics_test_200_20250802_035102.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.32962164982443726
+        },
+        "efficiency": {
+          "avg_runtime": 1.1084001064300537,
+          "avg_data_collection_runtime": 0.10851812362670898,
+          "avg_data_processing_runtime": 0.12598514556884766,
+          "avg_statistical_analysis_runtime": 0.1229550838470459,
+          "avg_insight_generation_runtime": 0.12555384635925293,
+          "avg_report_generation_runtime": 0.1065518856048584,
+          "avg_memory_usage": 0.390625,
+          "avg_cpu_usage": 13.059999999999999
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 200.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 9.0,
+          "avg_recommendation_count": 5.0
+        }
+      }
+    },
+    {
+      "dataset_size": 200,
+      "noise_level": 0.1,
+      "repetition": 2,
+      "status": "success",
+      "runtime": 1.120995044708252,
+      "output_dir": "metrics_test_outputs/size_200_noise_0.1_rep_2",
+      "data_path": "test_data/metrics_test_200_20250802_035103.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.3524564028151669
+        },
+        "efficiency": {
+          "avg_runtime": 1.116297960281372,
+          "avg_data_collection_runtime": 0.10959601402282715,
+          "avg_data_processing_runtime": 0.1262350082397461,
+          "avg_statistical_analysis_runtime": 0.12101602554321289,
+          "avg_insight_generation_runtime": 0.12448883056640625,
+          "avg_report_generation_runtime": 0.10722994804382324,
+          "avg_memory_usage": 0.234375,
+          "avg_cpu_usage": 12.709999999999999
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 200.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 8.0,
+          "avg_recommendation_count": 4.0
+        }
+      }
+    },
+    {
+      "dataset_size": 200,
+      "noise_level": 0.1,
+      "repetition": 3,
+      "status": "success",
+      "runtime": 1.1130170822143555,
+      "output_dir": "metrics_test_outputs/size_200_noise_0.1_rep_3",
+      "data_path": "test_data/metrics_test_200_20250802_035104.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.31936997516665366
+        },
+        "efficiency": {
+          "avg_runtime": 1.1092948913574219,
+          "avg_data_collection_runtime": 0.10945987701416016,
+          "avg_data_processing_runtime": 0.11950993537902832,
+          "avg_statistical_analysis_runtime": 0.11933279037475586,
+          "avg_insight_generation_runtime": 0.12465095520019531,
+          "avg_report_generation_runtime": 0.10863471031188965,
+          "avg_memory_usage": 0.25,
+          "avg_cpu_usage": 12.299999999999999
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 200.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 8.0,
+          "avg_recommendation_count": 4.0
+        }
+      }
+    },
+    {
+      "dataset_size": 200,
+      "noise_level": 0.2,
+      "repetition": 1,
+      "status": "success",
+      "runtime": 1.099165916442871,
+      "output_dir": "metrics_test_outputs/size_200_noise_0.2_rep_1",
+      "data_path": "test_data/metrics_test_200_20250802_035105.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.28742124091524096
+        },
+        "efficiency": {
+          "avg_runtime": 1.096679925918579,
+          "avg_data_collection_runtime": 0.10985231399536133,
+          "avg_data_processing_runtime": 0.11499810218811035,
+          "avg_statistical_analysis_runtime": 0.12022089958190918,
+          "avg_insight_generation_runtime": 0.12338614463806152,
+          "avg_report_generation_runtime": 0.10561513900756836,
+          "avg_memory_usage": 0.140625,
+          "avg_cpu_usage": 16.52
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 200.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 10.0,
+          "avg_recommendation_count": 4.0
+        }
+      }
+    },
+    {
+      "dataset_size": 200,
+      "noise_level": 0.2,
+      "repetition": 2,
+      "status": "success",
+      "runtime": 1.1028728485107422,
+      "output_dir": "metrics_test_outputs/size_200_noise_0.2_rep_2",
+      "data_path": "test_data/metrics_test_200_20250802_035106.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.3219611141899964
+        },
+        "efficiency": {
+          "avg_runtime": 1.0988490581512451,
+          "avg_data_collection_runtime": 0.10933613777160645,
+          "avg_data_processing_runtime": 0.12065815925598145,
+          "avg_statistical_analysis_runtime": 0.11449313163757324,
+          "avg_insight_generation_runtime": 0.12298583984375,
+          "avg_report_generation_runtime": 0.10584616661071777,
+          "avg_memory_usage": 0.125,
+          "avg_cpu_usage": 14.26
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 200.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 7.0,
+          "avg_recommendation_count": 3.0
+        }
+      }
+    },
+    {
+      "dataset_size": 200,
+      "noise_level": 0.2,
+      "repetition": 3,
+      "status": "success",
+      "runtime": 1.1127889156341553,
+      "output_dir": "metrics_test_outputs/size_200_noise_0.2_rep_3",
+      "data_path": "test_data/metrics_test_200_20250802_035107.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.3181978220386737
+        },
+        "efficiency": {
+          "avg_runtime": 1.1090319156646729,
+          "avg_data_collection_runtime": 0.10982918739318848,
+          "avg_data_processing_runtime": 0.11783981323242188,
+          "avg_statistical_analysis_runtime": 0.12371683120727539,
+          "avg_insight_generation_runtime": 0.12618803977966309,
+          "avg_report_generation_runtime": 0.1071619987487793,
+          "avg_memory_usage": 0.21875,
+          "avg_cpu_usage": 13.6
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 200.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 9.0,
+          "avg_recommendation_count": 4.0
+        }
+      }
+    },
+    {
+      "dataset_size": 200,
+      "noise_level": 0.3,
+      "repetition": 1,
+      "status": "success",
+      "runtime": 1.1136388778686523,
+      "output_dir": "metrics_test_outputs/size_200_noise_0.3_rep_1",
+      "data_path": "test_data/metrics_test_200_20250802_035109.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.29773956681427594
+        },
+        "efficiency": {
+          "avg_runtime": 1.1092538833618164,
+          "avg_data_collection_runtime": 0.11124086380004883,
+          "avg_data_processing_runtime": 0.12330985069274902,
+          "avg_statistical_analysis_runtime": 0.12067604064941406,
+          "avg_insight_generation_runtime": 0.12297987937927246,
+          "avg_report_generation_runtime": 0.10321378707885742,
+          "avg_memory_usage": 0.015625,
+          "avg_cpu_usage": 12.95
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 200.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 8.0,
+          "avg_recommendation_count": 3.0
+        }
+      }
+    },
+    {
+      "dataset_size": 200,
+      "noise_level": 0.3,
+      "repetition": 2,
+      "status": "success",
+      "runtime": 1.107058048248291,
+      "output_dir": "metrics_test_outputs/size_200_noise_0.3_rep_2",
+      "data_path": "test_data/metrics_test_200_20250802_035110.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.2682803068785754
+        },
+        "efficiency": {
+          "avg_runtime": 1.1035149097442627,
+          "avg_data_collection_runtime": 0.11065793037414551,
+          "avg_data_processing_runtime": 0.11832809448242188,
+          "avg_statistical_analysis_runtime": 0.1186072826385498,
+          "avg_insight_generation_runtime": 0.12466907501220703,
+          "avg_report_generation_runtime": 0.10719108581542969,
+          "avg_memory_usage": 0.015625,
+          "avg_cpu_usage": 12.54
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 200.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 7.0,
+          "avg_recommendation_count": 3.0
+        }
+      }
+    },
+    {
+      "dataset_size": 200,
+      "noise_level": 0.3,
+      "repetition": 3,
+      "status": "success",
+      "runtime": 1.1082580089569092,
+      "output_dir": "metrics_test_outputs/size_200_noise_0.3_rep_3",
+      "data_path": "test_data/metrics_test_200_20250802_035111.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.337394653750518
+        },
+        "efficiency": {
+          "avg_runtime": 1.1046710014343262,
+          "avg_data_collection_runtime": 0.10610198974609375,
+          "avg_data_processing_runtime": 0.12624883651733398,
+          "avg_statistical_analysis_runtime": 0.11618995666503906,
+          "avg_insight_generation_runtime": 0.12369990348815918,
+          "avg_report_generation_runtime": 0.1043708324432373,
+          "avg_memory_usage": 0.046875,
+          "avg_cpu_usage": 13.690000000000001
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 200.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 7.0,
+          "avg_recommendation_count": 3.0
+        }
+      }
+    },
+    {
+      "dataset_size": 300,
+      "noise_level": 0.1,
+      "repetition": 1,
+      "status": "success",
+      "runtime": 1.1170451641082764,
+      "output_dir": "metrics_test_outputs/size_300_noise_0.1_rep_1",
+      "data_path": "test_data/metrics_test_300_20250802_035112.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.32922937856204504
+        },
+        "efficiency": {
+          "avg_runtime": 1.113562822341919,
+          "avg_data_collection_runtime": 0.11393570899963379,
+          "avg_data_processing_runtime": 0.12068486213684082,
+          "avg_statistical_analysis_runtime": 0.11977291107177734,
+          "avg_insight_generation_runtime": 0.12589073181152344,
+          "avg_report_generation_runtime": 0.10726785659790039,
+          "avg_memory_usage": 0.21875,
+          "avg_cpu_usage": 13.84
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 300.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 8.0,
+          "avg_recommendation_count": 4.0
+        }
+      }
+    },
+    {
+      "dataset_size": 300,
+      "noise_level": 0.1,
+      "repetition": 2,
+      "status": "success",
+      "runtime": 1.107837200164795,
+      "output_dir": "metrics_test_outputs/size_300_noise_0.1_rep_2",
+      "data_path": "test_data/metrics_test_300_20250802_035113.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.3486255321231995
+        },
+        "efficiency": {
+          "avg_runtime": 1.1043460369110107,
+          "avg_data_collection_runtime": 0.10909199714660645,
+          "avg_data_processing_runtime": 0.12442612648010254,
+          "avg_statistical_analysis_runtime": 0.1191549301147461,
+          "avg_insight_generation_runtime": 0.12417984008789062,
+          "avg_report_generation_runtime": 0.10424137115478516,
+          "avg_memory_usage": 0.125,
+          "avg_cpu_usage": 13.74
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 300.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 8.0,
+          "avg_recommendation_count": 3.0
+        }
+      }
+    },
+    {
+      "dataset_size": 300,
+      "noise_level": 0.1,
+      "repetition": 3,
+      "status": "success",
+      "runtime": 1.1061100959777832,
+      "output_dir": "metrics_test_outputs/size_300_noise_0.1_rep_3",
+      "data_path": "test_data/metrics_test_300_20250802_035114.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.30929641242845296
+        },
+        "efficiency": {
+          "avg_runtime": 1.1023800373077393,
+          "avg_data_collection_runtime": 0.10954117774963379,
+          "avg_data_processing_runtime": 0.11838102340698242,
+          "avg_statistical_analysis_runtime": 0.11605715751647949,
+          "avg_insight_generation_runtime": 0.12571287155151367,
+          "avg_report_generation_runtime": 0.10514497756958008,
+          "avg_memory_usage": 0.171875,
+          "avg_cpu_usage": 12.680000000000001
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 300.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 8.0,
+          "avg_recommendation_count": 4.0
+        }
+      }
+    },
+    {
+      "dataset_size": 300,
+      "noise_level": 0.2,
+      "repetition": 1,
+      "status": "success",
+      "runtime": 1.109961986541748,
+      "output_dir": "metrics_test_outputs/size_300_noise_0.2_rep_1",
+      "data_path": "test_data/metrics_test_300_20250802_035115.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.2977020150764871
+        },
+        "efficiency": {
+          "avg_runtime": 1.1063690185546875,
+          "avg_data_collection_runtime": 0.10965991020202637,
+          "avg_data_processing_runtime": 0.12469196319580078,
+          "avg_statistical_analysis_runtime": 0.11801695823669434,
+          "avg_insight_generation_runtime": 0.12262797355651855,
+          "avg_report_generation_runtime": 0.1072380542755127,
+          "avg_memory_usage": 0.234375,
+          "avg_cpu_usage": 12.810000000000002
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 300.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 8.0,
+          "avg_recommendation_count": 4.0
+        }
+      }
+    },
+    {
+      "dataset_size": 300,
+      "noise_level": 0.2,
+      "repetition": 2,
+      "status": "success",
+      "runtime": 1.0987436771392822,
+      "output_dir": "metrics_test_outputs/size_300_noise_0.2_rep_2",
+      "data_path": "test_data/metrics_test_300_20250802_035116.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.3331639394164648
+        },
+        "efficiency": {
+          "avg_runtime": 1.0950899124145508,
+          "avg_data_collection_runtime": 0.10963582992553711,
+          "avg_data_processing_runtime": 0.10930800437927246,
+          "avg_statistical_analysis_runtime": 0.11927103996276855,
+          "avg_insight_generation_runtime": 0.12414002418518066,
+          "avg_report_generation_runtime": 0.10727286338806152,
+          "avg_memory_usage": 0.015625,
+          "avg_cpu_usage": 14.729999999999999
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 300.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 8.0,
+          "avg_recommendation_count": 3.0
+        }
+      }
+    },
+    {
+      "dataset_size": 300,
+      "noise_level": 0.2,
+      "repetition": 3,
+      "status": "success",
+      "runtime": 1.100248098373413,
+      "output_dir": "metrics_test_outputs/size_300_noise_0.2_rep_3",
+      "data_path": "test_data/metrics_test_300_20250802_035118.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.3108008214170814
+        },
+        "efficiency": {
+          "avg_runtime": 1.0966129302978516,
+          "avg_data_collection_runtime": 0.1092991828918457,
+          "avg_data_processing_runtime": 0.12486028671264648,
+          "avg_statistical_analysis_runtime": 0.10857295989990234,
+          "avg_insight_generation_runtime": 0.12452912330627441,
+          "avg_report_generation_runtime": 0.10234212875366211,
+          "avg_memory_usage": 0.0,
+          "avg_cpu_usage": 14.940000000000001
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 300.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 9.0,
+          "avg_recommendation_count": 4.0
+        }
+      }
+    },
+    {
+      "dataset_size": 300,
+      "noise_level": 0.3,
+      "repetition": 1,
+      "status": "success",
+      "runtime": 1.1106398105621338,
+      "output_dir": "metrics_test_outputs/size_300_noise_0.3_rep_1",
+      "data_path": "test_data/metrics_test_300_20250802_035119.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.26886503884379614
+        },
+        "efficiency": {
+          "avg_runtime": 1.1068048477172852,
+          "avg_data_collection_runtime": 0.11019706726074219,
+          "avg_data_processing_runtime": 0.1264641284942627,
+          "avg_statistical_analysis_runtime": 0.11948180198669434,
+          "avg_insight_generation_runtime": 0.12011384963989258,
+          "avg_report_generation_runtime": 0.1067509651184082,
+          "avg_memory_usage": 0.015625,
+          "avg_cpu_usage": 14.080000000000002
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 300.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 7.0,
+          "avg_recommendation_count": 3.0
+        }
+      }
+    },
+    {
+      "dataset_size": 300,
+      "noise_level": 0.3,
+      "repetition": 2,
+      "status": "success",
+      "runtime": 1.1116321086883545,
+      "output_dir": "metrics_test_outputs/size_300_noise_0.3_rep_2",
+      "data_path": "test_data/metrics_test_300_20250802_035120.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.317240503743518
+        },
+        "efficiency": {
+          "avg_runtime": 1.1079256534576416,
+          "avg_data_collection_runtime": 0.11128115653991699,
+          "avg_data_processing_runtime": 0.12101602554321289,
+          "avg_statistical_analysis_runtime": 0.12017607688903809,
+          "avg_insight_generation_runtime": 0.12119007110595703,
+          "avg_report_generation_runtime": 0.10791015625,
+          "avg_memory_usage": 0.015625,
+          "avg_cpu_usage": 12.960000000000003
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 300.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 8.0,
+          "avg_recommendation_count": 4.0
+        }
+      }
+    },
+    {
+      "dataset_size": 300,
+      "noise_level": 0.3,
+      "repetition": 3,
+      "status": "success",
+      "runtime": 1.1060798168182373,
+      "output_dir": "metrics_test_outputs/size_300_noise_0.3_rep_3",
+      "data_path": "test_data/metrics_test_300_20250802_035121.csv",
+      "metrics_summary": {
+        "accuracy": {
+          "avg_r_squared": 0.3203499414250822
+        },
+        "efficiency": {
+          "avg_runtime": 1.102797031402588,
+          "avg_data_collection_runtime": 0.1093130111694336,
+          "avg_data_processing_runtime": 0.12818217277526855,
+          "avg_statistical_analysis_runtime": 0.12138223648071289,
+          "avg_insight_generation_runtime": 0.1128702163696289,
+          "avg_report_generation_runtime": 0.10691714286804199,
+          "avg_memory_usage": 0.046875,
+          "avg_cpu_usage": 16.720000000000002
+        },
+        "reliability": {
+          "error_rate": 0.0,
+          "error_types": {}
+        },
+        "system": {
+          "avg_dataset_size": 300.0,
+          "avg_feature_count": 5.0,
+          "avg_insight_count": 9.0,
+          "avg_recommendation_count": 4.0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "metrics": {
+    "accuracy": {
+      "correlation_significance": [],
+      "regression_r_squared": [
+        0.6201992692897171,
+        0.0014023735444456302
+      ],
+      "outlier_detection": [],
+      "insight_relevance": []
+    },
+    "efficiency": {
+      "total_runtime": [
+        1.0966129302978516
+      ],
+      "step_runtimes": {
+        "data_collection": [
+          0.1092991828918457
+        ],
+        "data_processing": [
+          0.12486028671264648
+        ],
+        "statistical_analysis": [
+          0.10857295989990234
+        ],
+        "insight_generation": [
+          0.12452912330627441
+        ],
+        "report_generation": [
+          0.10234212875366211
+        ]
+      },
+      "memory_usage": [
+        0.0
+      ],
+      "cpu_usage": [
+        14.940000000000001
+      ]
+    },
+    "reliability": {
+      "error_rate": [
+        0
+      ],
+      "error_types": {},
+      "recovery_rate": [],
+      "consistency": []
+    },
+    "system": {
+      "dataset_size": [
+        300
+      ],
+      "feature_count": [
+        5
+      ],
+      "insight_count": [
+        9
+      ],
+      "recommendation_count": [
+        4
+      ]
+    }
+  },
+  "summary": {
+    "accuracy": {
+      "avg_r_squared": 0.3108008214170814
+    },
+    "efficiency": {
+      "avg_runtime": 1.0966129302978516,
+      "avg_data_collection_runtime": 0.1092991828918457,
+      "avg_data_processing_runtime": 0.12486028671264648,
+      "avg_statistical_analysis_runtime": 0.10857295989990234,
+      "avg_insight_generation_runtime": 0.12452912330627441,
+      "avg_report_generation_runtime": 0.10234212875366211,
+      "avg_memory_usage": 0.0,
+      "avg_cpu_usage": 14.940000000000001
+    },
+    "reliability": {
+      "error_rate": 0.0,
+      "error_types": {}
+    },
+    "system": {
+      "avg_dataset_size": 300.0,
+      "avg_feature_count": 5.0,
+      "avg_insight_count": 9.0,
+      "avg_recommendation_count": 4.0
+    }
+  },
+  "timestamp": "2025-08-02T03:51:19.168634"
+}

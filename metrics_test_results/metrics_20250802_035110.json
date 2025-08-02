@@ -1,0 +1,89 @@
+{
+  "metrics": {
+    "accuracy": {
+      "correlation_significance": [],
+      "regression_r_squared": [
+        0.535610749106627,
+        0.0009498646505238759
+      ],
+      "outlier_detection": [],
+      "insight_relevance": []
+    },
+    "efficiency": {
+      "total_runtime": [
+        1.1035149097442627
+      ],
+      "step_runtimes": {
+        "data_collection": [
+          0.11065793037414551
+        ],
+        "data_processing": [
+          0.11832809448242188
+        ],
+        "statistical_analysis": [
+          0.1186072826385498
+        ],
+        "insight_generation": [
+          0.12466907501220703
+        ],
+        "report_generation": [
+          0.10719108581542969
+        ]
+      },
+      "memory_usage": [
+        0.015625
+      ],
+      "cpu_usage": [
+        12.54
+      ]
+    },
+    "reliability": {
+      "error_rate": [
+        0
+      ],
+      "error_types": {},
+      "recovery_rate": [],
+      "consistency": []
+    },
+    "system": {
+      "dataset_size": [
+        200
+      ],
+      "feature_count": [
+        5
+      ],
+      "insight_count": [
+        7
+      ],
+      "recommendation_count": [
+        3
+      ]
+    }
+  },
+  "summary": {
+    "accuracy": {
+      "avg_r_squared": 0.2682803068785754
+    },
+    "efficiency": {
+      "avg_runtime": 1.1035149097442627,
+      "avg_data_collection_runtime": 0.11065793037414551,
+      "avg_data_processing_runtime": 0.11832809448242188,
+      "avg_statistical_analysis_runtime": 0.1186072826385498,
+      "avg_insight_generation_runtime": 0.12466907501220703,
+      "avg_report_generation_runtime": 0.10719108581542969,
+      "avg_memory_usage": 0.015625,
+      "avg_cpu_usage": 12.54
+    },
+    "reliability": {
+      "error_rate": 0.0,
+      "error_types": {}
+    },
+    "system": {
+      "avg_dataset_size": 200.0,
+      "avg_feature_count": 5.0,
+      "avg_insight_count": 7.0,
+      "avg_recommendation_count": 3.0
+    }
+  },
+  "timestamp": "2025-08-02T03:51:11.269837"
+}

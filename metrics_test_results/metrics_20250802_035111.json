@@ -1,0 +1,89 @@
+{
+  "metrics": {
+    "accuracy": {
+      "correlation_significance": [],
+      "regression_r_squared": [
+        0.6616951327830927,
+        0.013094174717943337
+      ],
+      "outlier_detection": [],
+      "insight_relevance": []
+    },
+    "efficiency": {
+      "total_runtime": [
+        1.1046710014343262
+      ],
+      "step_runtimes": {
+        "data_collection": [
+          0.10610198974609375
+        ],
+        "data_processing": [
+          0.12624883651733398
+        ],
+        "statistical_analysis": [
+          0.11618995666503906
+        ],
+        "insight_generation": [
+          0.12369990348815918
+        ],
+        "report_generation": [
+          0.1043708324432373
+        ]
+      },
+      "memory_usage": [
+        0.046875
+      ],
+      "cpu_usage": [
+        13.690000000000001
+      ]
+    },
+    "reliability": {
+      "error_rate": [
+        0
+      ],
+      "error_types": {},
+      "recovery_rate": [],
+      "consistency": []
+    },
+    "system": {
+      "dataset_size": [
+        200
+      ],
+      "feature_count": [
+        5
+      ],
+      "insight_count": [
+        7
+      ],
+      "recommendation_count": [
+        3
+      ]
+    }
+  },
+  "summary": {
+    "accuracy": {
+      "avg_r_squared": 0.337394653750518
+    },
+    "efficiency": {
+      "avg_runtime": 1.1046710014343262,
+      "avg_data_collection_runtime": 0.10610198974609375,
+      "avg_data_processing_runtime": 0.12624883651733398,
+      "avg_statistical_analysis_runtime": 0.11618995666503906,
+      "avg_insight_generation_runtime": 0.12369990348815918,
+      "avg_report_generation_runtime": 0.1043708324432373,
+      "avg_memory_usage": 0.046875,
+      "avg_cpu_usage": 13.690000000000001
+    },
+    "reliability": {
+      "error_rate": 0.0,
+      "error_types": {}
+    },
+    "system": {
+      "avg_dataset_size": 200.0,
+      "avg_feature_count": 5.0,
+      "avg_insight_count": 7.0,
+      "avg_recommendation_count": 3.0
+    }
+  },
+  "timestamp": "2025-08-02T03:51:12.398491"
+}

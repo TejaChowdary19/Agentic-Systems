@@ -1,0 +1,89 @@
+{
+  "metrics": {
+    "accuracy": {
+      "correlation_significance": [],
+      "regression_r_squared": [
+        0.5423315007634388,
+        0.012283401661210452
+      ],
+      "outlier_detection": [],
+      "insight_relevance": []
+    },
+    "efficiency": {
+      "total_runtime": [
+        1.0989151000976562
+      ],
+      "step_runtimes": {
+        "data_collection": [
+          0.11008191108703613
+        ],
+        "data_processing": [
+          0.11632013320922852
+        ],
+        "statistical_analysis": [
+          0.11870408058166504
+        ],
+        "insight_generation": [
+          0.12440991401672363
+        ],
+        "report_generation": [
+          0.10689616203308105
+        ]
+      },
+      "memory_usage": [
+        0.5625
+      ],
+      "cpu_usage": [
+        17.96
+      ]
+    },
+    "reliability": {
+      "error_rate": [
+        0
+      ],
+      "error_types": {},
+      "recovery_rate": [],
+      "consistency": []
+    },
+    "system": {
+      "dataset_size": [
+        100
+      ],
+      "feature_count": [
+        5
+      ],
+      "insight_count": [
+        9
+      ],
+      "recommendation_count": [
+        4
+      ]
+    }
+  },
+  "summary": {
+    "accuracy": {
+      "avg_r_squared": 0.27730745121232464
+    },
+    "efficiency": {
+      "avg_runtime": 1.0989151000976562,
+      "avg_data_collection_runtime": 0.11008191108703613,
+      "avg_data_processing_runtime": 0.11632013320922852,
+      "avg_statistical_analysis_runtime": 0.11870408058166504,
+      "avg_insight_generation_runtime": 0.12440991401672363,
+      "avg_report_generation_runtime": 0.10689616203308105,
+      "avg_memory_usage": 0.5625,
+      "avg_cpu_usage": 17.96
+    },
+    "reliability": {
+      "error_rate": 0.0,
+      "error_types": {}
+    },
+    "system": {
+      "avg_dataset_size": 100.0,
+      "avg_feature_count": 5.0,
+      "avg_insight_count": 9.0,
+      "avg_recommendation_count": 4.0
+    }
+  },
+  "timestamp": "2025-08-02T03:50:54.407103"
+}
