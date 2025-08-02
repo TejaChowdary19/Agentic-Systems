@@ -1,0 +1,138 @@
+{
+  "status": "success",
+  "business_context": "Evaluating system reliability",
+  "insights": {
+    "trends": [
+      {
+        "column": "x1",
+        "date_column": "date",
+        "direction": "increasing",
+        "percent_change": 401.51,
+        "start_value": 0.17,
+        "end_value": 0.83,
+        "insight": "x1 is increasing over time (by 401.51%)"
+      },
+      {
+        "column": "x2",
+        "date_column": "date",
+        "direction": "increasing",
+        "percent_change": 401.51,
+        "start_value": 0.17,
+        "end_value": 0.83,
+        "insight": "x2 is increasing over time (by 401.51%)"
+      },
+      {
+        "column": "y",
+        "date_column": "date",
+        "direction": "increasing",
+        "percent_change": 177.56,
+        "start_value": 0.26,
+        "end_value": 0.73,
+        "insight": "y is increasing over time (by 177.56%)"
+      }
+    ],
+    "outliers": [],
+    "correlations": [
+      {
+        "column1": "x1",
+        "column2": "y",
+        "correlation": 0.928,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.93) between x1 and y. As x1 increases, y tends to increase."
+      },
+      {
+        "column1": "x2",
+        "column2": "y",
+        "correlation": 0.928,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.93) between x2 and y. As x2 increases, y tends to increase."
+      },
+      {
+        "column1": "y",
+        "column2": "x1",
+        "correlation": 0.928,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.93) between y and x1. As x1 increases, y tends to increase."
+      },
+      {
+        "column1": "y",
+        "column2": "x2",
+        "correlation": 0.928,
+        "relationship": "positive",
+        "strength": "strong",
+        "insight": "Strong positive correlation (0.93) between y and x2. As x2 increases, y tends to increase."
+      }
+    ],
+    "predictions": {
+      "target": "y",
+      "insights": [
+        {
+          "feature": "x1",
+          "r_squared": 0.8613565665548812,
+          "p_value": 0.0,
+          "direction": "positive",
+          "impact": "strong",
+          "insight": "x1 has a strong impact on y (R\u00b2 = 0.86). When x1 increases, y typically increases.",
+          "evidence": "When x1 is above average, y is on average 107.8% higher"
+        },
+        {
+          "feature": "x2",
+          "r_squared": 0.8613565665548812,
+          "p_value": 0.0,
+          "direction": "positive",
+          "impact": "strong",
+          "insight": "x2 has a strong impact on y (R\u00b2 = 0.86). When x2 increases, y typically increases.",
+          "evidence": "When x2 is above average, y is on average 107.8% higher"
+        }
+      ]
+    },
+    "segments": [
+      {
+        "segment_column": "category",
+        "value_column": "y",
+        "top_segment": "A",
+        "bottom_segment": "C",
+        "top_value": 0.5672528169416542,
+        "bottom_value": 0.4252577341093685,
+        "percent_difference": 33.39,
+        "insight": "category segment 'A' has 33.4% higher y than segment 'C'"
+      }
+    ]
+  },
+  "data_summary": {
+    "rows": 1000,
+    "columns": 5,
+    "column_types": {
+      "date": "object",
+      "x1": "float64",
+      "x2": "float64",
+      "y": "float64",
+      "category": "object"
+    }
+  },
+  "recommended_next_steps": [
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on x1 to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on x2 to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "correlation_investigation",
+      "recommendation": "Investigate potential causal relationship between x1 and y",
+      "priority": "high"
+    },
+    {
+      "type": "segment_analysis",
+      "recommendation": "Analyze factors contributing to high y in category segment 'A'",
+      "priority": "high"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "status": "error",
+  "error_message": "Statistical analysis failed: Cannot describe a DataFrame without columns",
+  "error_type": "Exception"
+}

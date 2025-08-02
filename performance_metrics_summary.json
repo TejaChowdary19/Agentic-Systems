@@ -1,0 +1,63 @@
+{
+  "efficiency": {
+    "dataset_sizes": [
+      100,
+      500,
+      1000
+    ],
+    "processing_times": [
+      2.154953956604004,
+      2.157379150390625,
+      2.1735873222351074
+    ],
+    "memory_usages": [
+      2.125,
+      3.3125,
+      2.578125
+    ],
+    "cpu_usages": [
+      0.16999999999999998,
+      0.8999999999999997,
+      1.0499999999999994
+    ],
+    "summary": {
+      "avg_time_per_100_rows": 0.9345961729685467,
+      "base_memory_mb": 2.4464651639344255,
+      "memory_per_row_kb": 0.4327868852459012,
+      "avg_cpu_percent": 0.7066666666666664
+    }
+  },
+  "reliability": {
+    "total_runs": 5,
+    "successful_runs": 5,
+    "error_runs": 0,
+    "consistency_scores": [
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "avg_consistency": 0.75,
+    "error_handling": {
+      "missing_values": "recovered",
+      "invalid_format": "failed"
+    },
+    "error_rate": 0.0,
+    "recovery_rate": 0.5
+  },
+  "summary": {
+    "avg_processing_time_per_100rows": 0.9345961729685467,
+    "base_memory_usage_mb": 2.4464651639344255,
+    "memory_per_row_kb": 0.4327868852459012,
+    "avg_cpu_utilization": 0.7066666666666664,
+    "error_rate": 0.0,
+    "recovery_rate": 0.5,
+    "consistency": 0.75
+  }
+}

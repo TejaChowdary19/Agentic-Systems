@@ -1,0 +1,46 @@
+[
+  {
+    "status": "success",
+    "execution_time": 0.03347420692443848,
+    "memory_used": 1.890625,
+    "peak_memory": 150.3125,
+    "data_size_mb": 0.012136459350585938,
+    "data_rows": 100,
+    "data_columns": 9,
+    "processing_rate": 2987.374733798192,
+    "size": 100
+  },
+  {
+    "status": "success",
+    "execution_time": 0.043328046798706055,
+    "memory_used": 1.828125,
+    "peak_memory": 153.015625,
+    "data_size_mb": 0.12329292297363281,
+    "data_rows": 1000,
+    "data_columns": 9,
+    "processing_rate": 23079.7387347233,
+    "size": 1000
+  },
+  {
+    "status": "success",
+    "execution_time": 0.11000609397888184,
+    "memory_used": 18.65625,
+    "peak_memory": 175.046875,
+    "data_size_mb": 1.2229795455932617,
+    "data_rows": 10000,
+    "data_columns": 9,
+    "processing_rate": 90904.05484190473,
+    "size": 10000
+  },
+  {
+    "status": "success",
+    "execution_time": 0.44974803924560547,
+    "memory_used": 64.296875,
+    "peak_memory": 243.96875,
+    "data_size_mb": 6.1377458572387695,
+    "data_rows": 50000,
+    "data_columns": 9,
+    "processing_rate": 111173.35849616726,
+    "size": 50000
+  }
+]

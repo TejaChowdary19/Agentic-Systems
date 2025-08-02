@@ -1,0 +1,63 @@
+{
+  "status": "success",
+  "analysis_objective": "Error handling test: missing_values",
+  "data_summary": {
+    "original_data": [
+      500,
+      6
+    ],
+    "cleaned_data": [
+      500,
+      6
+    ]
+  },
+  "key_findings": [
+    {
+      "type": "trend",
+      "finding": "trend is increasing over time (by 192.72%)"
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.74) between x1 and target. As x1 increases, target tends to increase."
+    },
+    {
+      "type": "correlation",
+      "finding": "Strong positive correlation (0.74) between target and x1. As x1 increases, target tends to increase."
+    },
+    {
+      "type": "prediction",
+      "finding": "x1 has a strong impact on target (R\u00b2 = 0.55). When x1 increases, target typically increases."
+    },
+    {
+      "type": "prediction",
+      "finding": "x2 has a weak impact on target (R\u00b2 = 0.02). When x2 increases, target typically increases."
+    },
+    {
+      "type": "segment",
+      "finding": "category segment 'A' has 29.2% higher target than segment 'B'"
+    }
+  ],
+  "recommendations": [
+    {
+      "type": "trend_analysis",
+      "recommendation": "Conduct deeper time-series analysis on trend to understand factors driving the increasing trend",
+      "priority": "high"
+    },
+    {
+      "type": "correlation_investigation",
+      "recommendation": "Investigate potential causal relationship between x1 and target",
+      "priority": "high"
+    },
+    {
+      "type": "outlier_investigation",
+      "recommendation": "Investigate identified outliers to determine if they represent data quality issues or valuable business exceptions",
+      "priority": "medium"
+    }
+  ],
+  "file_paths": {
+    "original_data": "test_datasets/missing_values.csv",
+    "cleaned_data": "test_datasets/missing_values_cleaned.csv",
+    "analysis_results": "test_datasets/missing_values_cleaned_analysis_results.csv.json",
+    "insights": "test_datasets/missing_values_cleaned_insights.json"
+  }
+}
